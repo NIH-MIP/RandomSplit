@@ -1,4 +1,4 @@
-# RandomSplit
+# RandomSplit 
 Fairly partition training/test sets with respect to several counting-based criteria. Fairly partition a data set for F-fold cross validation.
 
 # Introduction
