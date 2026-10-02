@@ -17,6 +17,7 @@
 # 
 
 import os
+import sys
 import re
 import numpy as np
 import pandas as pd
@@ -67,7 +68,7 @@ class RunBalancedCrossValidation:
         else:
             return {"res": res, "LD": ld, "LD10": ld10, "LDTrain": ldtrain, "ED": ed, "FZ": fz, "FLZ": flz, "MeanMinP": meanminp}
 
-class RunBalancedCrossValidationIncrementalRandom:
+class RunBalancedCrossValidationIncremental:
     def __init__(self, W, X, Y, nfolds, runs, tries, aggregator, store_folds=False):
         self.W = W
         self.X = X
@@ -81,7 +82,7 @@ class RunBalancedCrossValidationIncrementalRandom:
     def __call__(self, i):
         seed = i+1
 
-        folds, res = BalancedCrossValidationIncrementalRandom(self.W, self.nfolds, tries=self.tries, random_state=seed)
+        folds, res = BalancedCrossValidationIncremental(self.W, self.nfolds, tries=self.tries, random_state=seed)
         #all_res.append(aggregator(res))
 
         res = self.aggregator(res)
@@ -132,7 +133,7 @@ class RunBalancedCrossValidationGlobal:
         else:
             return {"res": res, "LD": ld, "LD10": ld10, "LDTrain": ldtrain, "ED": ed, "FZ": fz, "FLZ": flz, "MeanMinP": meanminp}
 
-class RunBalancedCrossValidationIncremental:
+class RunBalancedCrossValidationIncrementalGlobal:
     def __init__(self, W, X, Y, nfolds, runs, aggregator, store_folds=False, device="cpu"):
         self.W = W
         self.X = X
@@ -147,7 +148,7 @@ class RunBalancedCrossValidationIncremental:
         #print("PID", os.getpid(), "start", time.time(), flush=True)
         seed = i+1
 
-        folds, res = BalancedCrossValidationIncremental(self.W, self.nfolds, random_state=seed, device=self.device)
+        folds, res = BalancedCrossValidationIncrementalGlobal(self.W, self.nfolds, random_state=seed, device=self.device)
         #all_res.append(aggregator(res))
 
         res = self.aggregator(res)
@@ -800,7 +801,7 @@ def main(data_path, nfolds, runs, tries, output=None, num_threads=None, store_fo
     #    num_threads = 1
 
     #os.system(f"taskset -p 0xffffffff {os.getpid()}")
-    mp.set_start_method('forkserver', force=True)
+    mp.set_start_method('spawn' if sys.platform == 'win32' else 'forkserver', force=True)
 
     if num_threads is not None and num_threads > 1:
         os.environ["OMP_NUM_THREADS"] = "1"
