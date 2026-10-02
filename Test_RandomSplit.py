@@ -19,7 +19,7 @@
 import numpy as np
 from RandomSplit import RandomSplit
 
-def PureRandomSplit(W, training_size, tries=10):
+def PureRandomSplit(W, training_size, tries=10, random_state=None, max_batch_size=1000):
     assert W.ndim == 2
     
     N = W.shape[1]
@@ -30,7 +30,15 @@ def PureRandomSplit(W, training_size, tries=10):
     assert training_size > 0 and training_size <= N
     
     assert np.all(W.max(axis=0) > 0) # Make sure all instances count for something
-    
+
+    if random_state is None:
+        rng = np.random.default_rng()
+    else:
+        try: 
+            rng = np.random.default_rng(int(random_state))
+        except TypeError:
+            rng = random_state
+
     if training_size == N:
         return np.ones(N, dtype=int)
     
@@ -38,7 +46,7 @@ def PureRandomSplit(W, training_size, tries=10):
     D = W.sum(axis=1)
     W = W[D > 0, :]
     D = D[D > 0]
-    
+
     K = W.shape[0]
     
     assert K > 1 and N >= K
@@ -55,20 +63,43 @@ def PureRandomSplit(W, training_size, tries=10):
     bestRes = -1.0
     bestX = None
     
-    ind = np.arange(N)
+    #ind = np.arange(N)
+    #
+    #for _ in range(tries):        
+    #    rng.shuffle(ind)
+    #    
+    #    x = np.zeros(N, dtype=int)
+    #    x[ind[:training_size]] = 1
+    #   
+    #    res = np.linalg.norm(np.inner(W, x))
+    #    
+    #    if res < bestRes or bestRes < 0.0:
+    #        bestRes = res
+    #        bestX = x
+
     
-    for _ in range(tries):        
-        np.random.shuffle(ind)
-        
-        x = np.zeros(N, dtype=int)
-        x[ind[:training_size]] = 1
+    max_batch_size = min(max_batch_size,tries)
+    
+    ind = np.repeat(np.arange(N)[:, None], max_batch_size, axis=1)
+
+    for i in range(0, tries, max_batch_size):
+        batch_size = min(max_batch_size, tries - i)
+        ind = ind[:, :batch_size]
+
+        ind = rng.permuted(ind, axis=0)
+
+        X = np.zeros((N, batch_size), dtype=int)
+        np.put_along_axis(X, ind[:training_size, :], 1, axis=0)
+
+        res = np.linalg.norm(W @ X, axis=0)
+
+        b_min = np.argmin(res)
+
+        if bestRes < 0.0 or res[b_min] < bestRes:
+            bestRes = res[b_min]
+            bestX = X[:, b_min].copy()
+
        
-        res = np.linalg.norm(np.inner(W, x))
-        
-        if res < bestRes or bestRes < 0.0:
-            bestRes = res
-            bestX = x
-            
     return bestX, bestRes
     
 
@@ -76,8 +107,8 @@ def RunBenchmark():
     K = 11
     N = 200
     p = 0.5
-    numRuns=100000
-    tries=1
+    numRuns=100
+    tries=1000
     
     np.random.seed(727)
     seeds = np.random.randint(size=numRuns, low=1, high=2**31-1)
@@ -104,17 +135,17 @@ def RunBenchmark():
         
         expected = np.round(p*W.sum(axis=1)).astype(int)
         
-        x, allRes[i] = RandomSplit(W, p, tries=tries)
+        x, allRes[i] = RandomSplit(W, p, tries=tries, random_state=seeds[i])
         svd = np.inner(W, x)
 
-        x, allResRandom[i] = PureRandomSplit(W, p, tries=tries)
+        x, allResRandom[i] = PureRandomSplit(W, p, tries=tries, random_state=seeds[i])
         random = np.inner(W, x)
         
         #print(f"Expected: {expected}")
         #print(f"SVD: {svd}")
         #print(f"Random: {random}\n")
 
-    print(f"SVD: {allRes.mean()} +/- {allRes.std()}")
+    print(f"QR: {allRes.mean()} +/- {allRes.std()}")
     print(f"Random: {allResRandom.mean()} +/- {allResRandom.std()}")
 
 if __name__ == "__main__":

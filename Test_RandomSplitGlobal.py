@@ -2,7 +2,7 @@
 # Nathan Lay
 # AI Resource at National Cancer Institute
 # National Institutes of Health
-# August 2023
+# September 2026
 # 
 # THIS SOFTWARE IS PROVIDED BY THE AUTHOR(S) ``AS IS'' AND ANY EXPRESS OR
 # IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
@@ -17,10 +17,19 @@
 # 
 
 import numpy as np
-from RandomSplit import BalancedCrossValidation
+from RandomSplit import RandomSplitGlobal
 
-def PureRandomCrossValidation(W, F, tries=10, aggregator=np.max, random_state = None, max_batch_size=1000):
+def PureRandomSplit(W, training_size, tries=10, random_state=None, max_batch_size=1000):
     assert W.ndim == 2
+    
+    N = W.shape[1]
+    
+    if training_size < 1:
+        training_size = int(training_size*N)
+        
+    assert training_size > 0 and training_size <= N
+    
+    assert np.all(W.max(axis=0) > 0) # Make sure all instances count for something
 
     if random_state is None:
         rng = np.random.default_rng()
@@ -30,17 +39,14 @@ def PureRandomCrossValidation(W, F, tries=10, aggregator=np.max, random_state = 
         except TypeError:
             rng = random_state
 
-    N = W.shape[1]
-
-    assert F > 1 and F <= N
-
-    assert np.all(W.max(axis=0) > 0) # Make sure all instances count for something
-
+    if training_size == N:
+        return np.ones(N, dtype=int)
+    
     # Remove rows with no counts over any instance
     D = W.sum(axis=1)
     W = W[D > 0, :]
     D = D[D > 0]
-    
+
     K = W.shape[0]
     
     assert K > 1 and N >= K
@@ -53,11 +59,26 @@ def PureRandomCrossValidation(W, F, tries=10, aggregator=np.max, random_state = 
     
     # This is ZDW
     W = Z @ W
+    
+    bestRes = -1.0
+    bestX = None
+    
+    #ind = np.arange(N)
+    #
+    #for _ in range(tries):        
+    #    rng.shuffle(ind)
+    #    
+    #    x = np.zeros(N, dtype=int)
+    #    x[ind[:training_size]] = 1
+    #   
+    #    res = np.linalg.norm(np.inner(W, x))
+    #    
+    #    if res < bestRes or bestRes < 0.0:
+    #        bestRes = res
+    #        bestX = x
 
-    bestRes = None
-    bestFolds = None
-
-    max_batch_size = min(max_batch_size, tries)
+    
+    max_batch_size = min(max_batch_size,tries)
     
     ind = np.repeat(np.arange(N)[:, None], max_batch_size, axis=1)
 
@@ -67,40 +88,27 @@ def PureRandomCrossValidation(W, F, tries=10, aggregator=np.max, random_state = 
 
         ind = rng.permuted(ind, axis=0)
 
-        res = []
-        folds = []
+        X = np.zeros((N, batch_size), dtype=int)
+        np.put_along_axis(X, ind[:training_size, :], 1, axis=0)
 
-        for f in range(F):
-            val_begin = N*f//F
-            val_end = N*(f+1)//F
+        res = np.linalg.norm(W @ X, axis=0)
 
-            X = np.ones((N, batch_size))
-            #X[ind[val_begin:val_end], :] = 0 # Mask out validation set
-            np.put_along_axis(X, ind[val_begin:val_end, :], 0, axis=0)
+        b_min = np.argmin(res)
 
-            folds.append(X)
-            res.append(np.linalg.norm(W @ X, axis=0)[None, ...])
+        if bestRes < 0.0 or res[b_min] < bestRes:
+            bestRes = res[b_min]
+            bestX = X[:, b_min].copy()
 
-        res = np.concatenate(tuple(res), axis=0)
-        agg_res = aggregator(res, axis=0)
-        b_min = np.argmin(agg_res)
-
-        res = list(res[f,b_min].item() for f in range(F))
-        folds = list(X[:,b_min].copy() for X in folds)
-
-        if bestRes is None or agg_res[b_min] < aggregator(bestRes):
-            bestRes = res
-            bestFolds = folds
-            
-    return bestFolds, bestRes
+       
+    return bestX, bestRes
+    
 
 def RunBenchmark():
     K = 11
     N = 200
-    F = 5
+    p = 0.5
     numRuns=100
     tries=1000
-    aggregator=np.max
     
     np.random.seed(727)
     seeds = np.random.randint(size=numRuns, low=1, high=2**31-1)
@@ -125,31 +133,20 @@ def RunBenchmark():
         
         assert np.all(W.max(axis=0) > 0)
         
-        #expected = np.round(((F-1.0)/F)*W.sum(axis=1)).astype(int)
+        expected = np.round(p*W.sum(axis=1)).astype(int)
         
-        folds, res = BalancedCrossValidation(W, F, tries=tries, aggregator=aggregator, random_state=seeds[i])
+        x, allRes[i] = RandomSplitGlobal(W, p, random_state=seeds[i], device="cpu")
+        svd = np.inner(W, x)
 
-        #for f, fold in enumerate(folds):
-        #    svd = np.inner(W, fold)
-        #    print(f"SVD {f}: {svd}")
-
-        #print(f"Expected: {expected}\n")
-
-        allRes[i] = aggregator(res)
-
-        folds, res = PureRandomCrossValidation(W, F, tries=tries, aggregator=aggregator, random_state=seeds[i])
-
-        #for f, fold in enumerate(folds):
-        #    random = np.inner(W, fold)
-        #    print(f"Random {f}: {random}")
-
-        #print(f"Expected: {expected}\n")
-
-        allResRandom[i] = aggregator(res)
+        x, allResRandom[i] = PureRandomSplit(W, p, tries=tries, random_state=seeds[i])
+        random = np.inner(W, x)
+        
+        #print(f"Expected: {expected}")
+        #print(f"QR: {svd}")
+        #print(f"Random: {random}\n")
 
     print(f"QR: {allRes.mean()} +/- {allRes.std()}")
     print(f"Random: {allResRandom.mean()} +/- {allResRandom.std()}")
 
 if __name__ == "__main__":
     RunBenchmark()
-

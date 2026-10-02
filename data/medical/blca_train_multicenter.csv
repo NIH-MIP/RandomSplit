@@ -1,0 +1,687 @@
+﻿patient_id,slide_id,slide_id_ne,label,label_binary,pathTstage,path_LVI,label_group,label_group_int,turbt_secondaryPath,ext,center_id,rep_slide,nslides
+UW_10003-1,BCMC-047_A1.1_Outside-Review-Stained-Slide.svs,BCMC-047_A1.1_Outside-Review-Stained-Slide,Non-responder,0,pT4a,No,NR4,3,none,.svs,0,1,1
+UW_10004-1,BCMC-067_A2.2_Outside-Review-Stained-Slide.svs,BCMC-067_A2.2_Outside-Review-Stained-Slide,Non-responder,0,pT3a,Yes,NR4,3,none,.svs,0,1,1
+UW_10005-1,BCMC-023_A1.1_Outside-Review-Stained-Slide.svs,BCMC-023_A1.1_Outside-Review-Stained-Slide,Responder,1,pT0,No,R1,4,none,.svs,0,1,1
+UW_10006-1,BCMC-120_A2.1_Outside-Review-Stained-Slide.svs,BCMC-120_A2.1_Outside-Review-Stained-Slide,non-responder,0,pT1,Yes,NR2,1,none,.svs,0,1,1
+UW_10007-1,BCMC-068_A1.1_Outside-Review-Stained-Slide.svs,BCMC-068_A1.1_Outside-Review-Stained-Slide,Non-responder,0,pT3a,Yes,NR4,3,none,.svs,0,1,1
+UW_10008-1,BCMC-025_A1.1_Outside-Review-Stained-Slide.svs,BCMC-025_A1.1_Outside-Review-Stained-Slide,Non-responder,0,pT1,No,NR2,1,none,.svs,0,1,1
+UW_10010-1,BCMC-008_A1.1_Outside-Review-Stained-Slide.svs,BCMC-008_A1.1_Outside-Review-Stained-Slide,Responder,1,pT0,No,R1,4,adenocarcinoma,.svs,0,1,1
+UW_10014-1,BCMC-193_A1.2_HE-level-2.svs,BCMC-193_A1.2_HE-level-2,Non-responder,0,pTis,Yes,NR1,0,micropapillary,.svs,0,1,1
+UW_10015-1,BCMC-004_A5.1_Outside-Review-Stained-Slide.svs,BCMC-004_A5.1_Outside-Review-Stained-Slide,Responder,1,pT0,No,R1,4,micropapillary,.svs,0,1,1
+UW_10016-1,BCMC-012_A1.1_Outside-Review-Stained-Slide.svs,BCMC-012_A1.1_Outside-Review-Stained-Slide,Non-responder,0,pT3b,Yes,NR4,3,none,.svs,0,1,1
+UW_10017-1,BCMC-079_A1.1_Outside-Review-Stained-Slide.svs,BCMC-079_A1.1_Outside-Review-Stained-Slide,Non-responder,0,pT3a,Yes,NR4,3,neuroendocrine,.svs,0,1,1
+UW_10018-1,BCMC-118_A2.3_Outside-Review-Stained-Slide.svs,BCMC-118_A2.3_Outside-Review-Stained-Slide,Non-responder,0,pT1,Yes,NR2,1,micropapillary,.svs,0,1,1
+UW_10019-1,BCMC-107_A1.3_Outside-Review-Stained-Slide.svs,BCMC-107_A1.3_Outside-Review-Stained-Slide,Non-responder,0,pT3a,No,NR4,3,none,.svs,0,1,1
+UW_10020-1,BCMC-103_A10.1_Outside-Review-Stained-Slide.svs,BCMC-103_A10.1_Outside-Review-Stained-Slide,Responder,1,pT0,No,R1,4,squamous,.svs,0,1,1
+UW_10021-1,BCMC-091_A1.1_Outside-Review-Stained-Slide.svs,BCMC-091_A1.1_Outside-Review-Stained-Slide,Responder,1,pTis,No,R2,5,clear cell,.svs,0,1,1
+UW_10022-1,BCMC-071_A2.1_Outside-Review-Stained-Slide.svs,BCMC-071_A2.1_Outside-Review-Stained-Slide,Responder,1,pTa,No,R2,5,none,.svs,0,1,1
+UW_10023-1,BCMC-088_A2.1_Outside-Review-Stained-Slide.svs,BCMC-088_A2.1_Outside-Review-Stained-Slide,Responder,1,pT0,No,R1,4,squamous,.svs,0,1,1
+UW_10024-1,BCMC-083_A2.1_Outside-Review-Stained-Slide.svs,BCMC-083_A2.1_Outside-Review-Stained-Slide,Responder,1,pTis,No,R2,5,glandular,.svs,0,1,1
+UW_10025-1,BCMC-060_A1.1_Outside-Review-Stained-Slide.svs,BCMC-060_A1.1_Outside-Review-Stained-Slide,Non-responder,0,pT1,No,NR2,1,none,.svs,0,1,1
+UW_10026-1,BCMC-030_A5.1_Outside-Review-Stained-Slide.svs,BCMC-030_A5.1_Outside-Review-Stained-Slide,Non-responder,0,pT2,No,NR3,2,none,.svs,0,1,1
+UW_10028-1,BCMC-041_A1.1_Outside-Review-Stained-Slide.svs,BCMC-041_A1.1_Outside-Review-Stained-Slide,Responder,1,pT0,No,R1,4,none,.svs,0,1,1
+UW_10030-1,BCMC-039_A1.1_Outside-Review-Stained-Slide.svs,BCMC-039_A1.1_Outside-Review-Stained-Slide,Non-responder,0,pT3a,No,NR4,3,squamous,.svs,0,1,1
+UW_10031-1,BCMC-036_A2.1_Outside-Review-Stained-Slide.svs,BCMC-036_A2.1_Outside-Review-Stained-Slide,Responder,1,pT0,No,R1,4,none,.svs,0,1,1
+UW_10032-1,BCMC-026_A2.1_Outside-Review-Stained-Slide.svs,BCMC-026_A2.1_Outside-Review-Stained-Slide,Responder,1,pT0,No,R1,4,none,.svs,0,1,1
+UW_10033-1,BCMC-020_A1.1_Outside-Review-Stained-Slide.svs,BCMC-020_A1.1_Outside-Review-Stained-Slide,Non-responder,0,pT2,No,NR3,2,none,.svs,0,1,1
+UW_10034-1,BCMC-015_A2.6_Outside-Review-Stained-Slide.svs,BCMC-015_A2.6_Outside-Review-Stained-Slide,Responder,1,pT0,No,R1,4,none,.svs,0,1,1
+UW_101-1,BCMC-224_A1.3_HE-level-3.svs,BCMC-224_A1.3_HE-level-3,Non-responder,0,pT0,No,NR1,0,none,.svs,0,1,2
+UW_132-1,BCMC-178_A5.1_H&E.svs,BCMC-178_A5.1_H&E,Responder,1,pT0,No,R1,4,none,.svs,0,1,1
+UW_157-1,BCMC-146_A1.2_Outside-Review-Stained-Slide.svs,BCMC-146_A1.2_Outside-Review-Stained-Slide,Responder,1,pT0,No,R1,4,none,.svs,0,1,1
+UW_176-1,BCMC-161_A1.1_Outside-Review-Stained-Slide.svs,BCMC-161_A1.1_Outside-Review-Stained-Slide,Non-responder,0,pT2,No,NR3,2,none,.svs,0,1,1
+UW_212-1,BCMC-135_A4.1_Outside-Review-Stained-Slide.svs,BCMC-135_A4.1_Outside-Review-Stained-Slide,Non-responder,0,pT1,No,NR2,1,none,.svs,0,1,1
+UW_244-1,BCMC-144_A2.1_Outside-Review-Stained-Slide.svs,BCMC-144_A2.1_Outside-Review-Stained-Slide,Non-responder,0,pT3b,Yes,NR4,3,plasmacytoid,.svs,0,1,1
+UW_266-1,BCMC-132_A2.1_Outside-Review-Stained-Slide.svs,BCMC-132_A2.1_Outside-Review-Stained-Slide,Non-responder,0,pT2,No,NR3,2,micropapillary,.svs,0,1,1
+UW_297-1,BCMC-152_A2.1_Outside-Review-Stained-Slide.svs,BCMC-152_A2.1_Outside-Review-Stained-Slide,Responder,1,pT0,No,R1,4,other,.svs,0,1,1
+UW_315-1,BCMC-123_A2.1_Outside-Review-Stained-Slide.svs,BCMC-123_A2.1_Outside-Review-Stained-Slide,Responder,1,pTis,No,R2,5,none,.svs,0,0,2
+UW_328-1,BCMC-112_A1.1_Outside-Review-Stained-Slide.svs,BCMC-112_A1.1_Outside-Review-Stained-Slide,Non-responder,0,pT3a,Yes,NR4,3,micropapillary,.svs,0,1,1
+UW_352-1,BCMC-121_A3.1_Outside-Review-Stained-Slide.svs,BCMC-121_A3.1_Outside-Review-Stained-Slide,Responder,1,pT0,No,R1,4,micropapillary,.svs,0,1,1
+UW_369-1,BCMC-181_A1.1_H&E.svs,BCMC-181_A1.1_H&E,Responder,1,pTis,No,R2,5,none,.svs,0,1,1
+UW_397-1,BCMC-164_A5.1_Outside-Review-Stained-Slide.svs,BCMC-164_A5.1_Outside-Review-Stained-Slide,Responder,1,pT0,No,R1,4,squamous,.svs,0,1,1
+UW_41-1,BCMC-129_A1.1_Outside-Review-Stained-Slide.svs,BCMC-129_A1.1_Outside-Review-Stained-Slide,Non-responder,0,pT2,No,NR3,2,micropapillary,.svs,0,1,1
+UW_73-1,BCMC-089_A1.4_Outside-Review-Stained-Slide.svs,BCMC-089_A1.4_Outside-Review-Stained-Slide,Responder,1,pT0,No,R1,4,none,.svs,0,1,1
+UW_926-1,BCMC-191_A1.1_HE-level-1.svs,BCMC-191_A1.1_HE-level-1,Non-responder,0,pT2,No,NR3,2,none,.svs,0,1,1
+UW_10035-1,SH21-13542_A1-2_HE_40X_MH021323.tif,SH21-13542_A1-2_HE_40X_MH021323,Non-responder,0,pT2,No,NR3,2,adenocarcinoma,.tif,1,1,1
+UW_101-1,SH21-12189_A1-2_HE_40X_MH021323.tif,SH21-12189_A1-2_HE_40X_MH021323,Non-responder,0,pT0,No,NR1,0,none,.tif,1,0,2
+UW_110-1,SH-20-02612_C1-1_HE_40X_MH021323.tif,SH-20-02612_C1-1_HE_40X_MH021323,Responder,1,pTis,No,R2,5,none,.tif,1,1,2
+UW_110-1,SH-20-02612_C3-1_HE_40X_MH021323.tif,SH-20-02612_C3-1_HE_40X_MH021323,Responder,1,pTis,No,R2,5,none,.tif,1,0,2
+UW_119-1,SH-21-00437_A1-1_HE_40X_MH021323.tif,SH-21-00437_A1-1_HE_40X_MH021323,Responder,1,pT0,No,R1,4,other,.tif,1,1,1
+UW_125-1,SH-19-00124_A2-1_HE_40X_MH021323.tif,SH-19-00124_A2-1_HE_40X_MH021323,Non-responder,0,pT2,No,NR3,2,none,.tif,1,0,2
+UW_125-1,SH-19-00124_A3-1_HE_40X_MH021323.tif,SH-19-00124_A3-1_HE_40X_MH021323,Non-responder,0,pT2,No,NR3,2,none,.tif,1,1,2
+UW_126-1,SH-20-01669_A-4_HE_40X_050824.tif,SH-20-01669_A-4_HE_40X_050824,Non-responder,0,pT3a,No,NR4,3,none,.tif,1,1,1
+UW_137-1,SH-18-07158_A-1_HE_40X_050824.tif,SH-18-07158_A-1_HE_40X_050824,Non-responder,0,pT3b,Yes,NR4,3,none,.tif,1,1,1
+UW_156-1,SH-19-01730_A-2_HE_40X_050824.tif,SH-19-01730_A-2_HE_40X_050824,Non-responder,0,pT4a,No,NR4,3,none,.tif,1,1,1
+UW_168-1,SH-18-08821_A1-1_HE_40X_MH021323.tif,SH-18-08821_A1-1_HE_40X_MH021323,Non-responder,0,pT3a,No,NR4,3,signet ring,.tif,1,1,1
+UW_171-1,SH21-12692_B2-1_HE_40X_MH021323.tif,SH21-12692_B2-1_HE_40X_MH021323,Non-responder,0,pT3b,Yes,NR4,3,squamous,.tif,1,1,1
+UW_181-1,SH21-13390_A1-1_HE_40X_MH021323.tif,SH21-13390_A1-1_HE_40X_MH021323,Non-responder,0,pT2,No,NR3,2,other,.tif,1,1,1
+UW_186-1,SH-19-00470_A-3_HE_40X_050824.tif,SH-19-00470_A-3_HE_40X_050824,Non-responder,0,pT3a,Yes,NR4,3,none,.tif,1,1,1
+UW_235-1,SH-19-03461_A1-2_HE_40X_MH021323.tif,SH-19-03461_A1-2_HE_40X_MH021323,Non-responder,0,pT3b,No,NR4,3,other,.tif,1,1,1
+UW_243-1,SH-18-06367_A-9_HE_40X_050824.tif,SH-18-06367_A-9_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_250-1,SH-21-00504_A2-1_HE_40X_MH021323.tif,SH-21-00504_A2-1_HE_40X_MH021323,Non-responder,0,pT3a,No,NR4,3,squamous,.tif,1,0,2
+UW_250-1,SH-21-00504_A4-1_HE_40X_MH021323.tif,SH-21-00504_A4-1_HE_40X_MH021323,Non-responder,0,pT3a,No,NR4,3,squamous,.tif,1,1,2
+UW_255-1,VS-14-2987_1_HE_40X_050824.tif,VS-14-2987_1_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_257-1,SH-21-00864_A-2_HE_40X_050824.tif,SH-21-00864_A-2_HE_40X_050824,Non-responder,0,pT0,Yes,NR1,0,none,.tif,1,1,1
+UW_26-1,SH-17-08006_A-1_HE_40X_050824.tif,SH-17-08006_A-1_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_270-1,SH-18-06303_A-7_HE_40X_050824.tif,SH-18-06303_A-7_HE_40X_050824,Non-responder,0,pT3a,No,NR4,3,none,.tif,1,1,1
+UW_295-1,SH-20-04775_A-3_HE_40X_050824.tif,SH-20-04775_A-3_HE_40X_050824,Non-responder,0,pT4a,No,NR4,3,none,.tif,1,1,1
+UW_299-1,SH-19-02558_A1-1_HE_40X_MH021323.tif,SH-19-02558_A1-1_HE_40X_MH021323,Responder,1,pT0,No,R1,4,squamous,.tif,1,1,1
+UW_304-1,SHO-22-00192_A3-1_HE_40X_050824.tif,SHO-22-00192_A3-1_HE_40X_050824,Non-responder,0,pT3b,Yes,NR4,3,none,.tif,1,1,1
+UW_315-1,S-21-194740_A1-1_HE_40X_050824.tif,S-21-194740_A1-1_HE_40X_050824,Responder,1,pTis,No,R2,5,none,.tif,1,1,2
+UW_320-1,SH-19-05101_A-3_HE_40X_050824.tif,SH-19-05101_A-3_HE_40X_050824,Non-responder,0,pT3b,No,NR4,3,none,.tif,1,1,1
+UW_324-1,SHO-21-11355_A2-1_HE_40X_050824.tif,SHO-21-11355_A2-1_HE_40X_050824,Non-responder,0,pT2,Yes,NR3,2,none,.tif,1,1,1
+UW_325-1,NBC_028_A1(ICCrecut)_HE_40X_MH083022.tif,NBC_028_A1(ICCrecut)_HE_40X_MH083022,Responder,1,pT0,No,R1,4,none,.tif,1,0,3
+UW_325-1,NBC_028_A1(recut)_HE_40X_MH083022.tif,NBC_028_A1(recut)_HE_40X_MH083022,Responder,1,pT0,No,R1,4,none,.tif,1,1,3
+UW_325-1,NBC_028_A1_AE1AE3_HE_40X_MH083022.tif,NBC_028_A1_AE1AE3_HE_40X_MH083022,Responder,1,pT0,No,R1,4,none,.tif,1,exclude,3
+UW_330-1,NBC_031_A2-1_HE_40X_MH083022.tif,NBC_031_A2-1_HE_40X_MH083022,Non-responder,0,pT0,No,NR1,0,none,.tif,1,0,2
+UW_330-1,NBC_031_A3-1_HE_40X_MH083022.tif,NBC_031_A3-1_HE_40X_MH083022,Non-responder,0,pT0,No,NR1,0,none,.tif,1,1,2
+UW_331-1,SH21-13392_A2-1_HE_40X_MH021323.tif,SH21-13392_A2-1_HE_40X_MH021323,Non-responder,0,pT2,No,NR3,2,none,.tif,1,1,1
+UW_332-1,SH-19-05322_A1-1_HE_40X_MH021323.tif,SH-19-05322_A1-1_HE_40X_MH021323,Non-responder,0,pT2,No,NR3,2,none,.tif,1,1,1
+UW_335-1,SH21-14051_A2-1_HE_40X_MH021323.tif,SH21-14051_A2-1_HE_40X_MH021323,Non-responder,0,pT1,No,NR2,1,squamous,.tif,1,0,2
+UW_335-1,SH21-14051_A8-1_HE_40X_MH021323.tif,SH21-14051_A8-1_HE_40X_MH021323,Non-responder,0,pT1,No,NR2,1,squamous,.tif,1,1,2
+UW_341-1,SH-21-11216_A1-1_HE_40X_050824.tif,SH-21-11216_A1-1_HE_40X_050824,Responder,1,pTis,No,R2,5,none,.tif,1,1,1
+UW_342-1,SH-18-00943_A-2_HE_40X_050824.tif,SH-18-00943_A-2_HE_40X_050824,Non-responder,0,pT3a,Yes,NR4,3,none,.tif,1,1,1
+UW_349-1,SH22-00712_A1-1_HE_40X_MH021323.tif,SH22-00712_A1-1_HE_40X_MH021323,Responder,1,pT0,No,R1,4,squamous,.tif,1,0,2
+UW_349-1,SH22-00712_B1-1_HE_40X_MH021323.tif,SH22-00712_B1-1_HE_40X_MH021323,Responder,1,pT0,No,R1,4,squamous,.tif,1,1,2
+UW_358-1,SH_21_01090_A3-1_HE_40X_MH021323.tif,SH_21_01090_A3-1_HE_40X_MH021323,Non-responder,0,pT2,No,NR3,2,adenocarcinoma,.tif,1,0,2
+UW_358-1,SH-21-01090_A4-1_HE_40X_MH021323.tif,SH-21-01090_A4-1_HE_40X_MH021323,Non-responder,0,pT2,No,NR3,2,adenocarcinoma,.tif,1,1,2
+UW_365-1,SH-13-08377_A1-1_HE_40X_061224.tif,SH-13-08377_A1-1_HE_40X_061224,Non-responder,0,pT2,Yes,NR3,2,none,.tif,1,1,1
+UW_367-1,NBC_011_A2-1_HE_40X_MH083122.tif,NBC_011_A2-1_HE_40X_MH083122,Non-responder,0,pT1,No,NR2,1,none,.tif,1,1,2
+UW_367-1,NBC_011_A4-1_HE_40X_MH083122.tif,NBC_011_A4-1_HE_40X_MH083122,Non-responder,0,pT1,No,NR2,1,none,.tif,1,0,2
+UW_37-1,SH-19-00817_A1-1_HE_40X_MH021323.tif,SH-19-00817_A1-1_HE_40X_MH021323,Non-responder,0,pT2,No,NR3,2,none,.tif,1,1,1
+UW_372-1,SH-14-01138_A-5_HE_40X_050824.tif,SH-14-01138_A-5_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_376-1,SH-14-03844_A-2_HE_40X_050824.tif,SH-14-03844_A-2_HE_40X_050824,Non-responder,0,pT3a,Yes,NR4,3,none,.tif,1,1,1
+UW_377-1,NBC_006_A1-3_HE_40X_MH083022.tif,NBC_006_A1-3_HE_40X_MH083022,non-responder,0,pT3b,No,NR4,3,squamous,.tif,1,1,1
+UW_377-2,NBC_012_C1-3_HE_40X_MH083122.tif,NBC_012_C1-3_HE_40X_MH083122,Non-responder,0,pT3b,No,NR4,3,squamous,.tif,1,0,1
+UW_380-1,SH-14-06103_A-1_HE_40X_050824.tif,SH-14-06103_A-1_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_392-1,SH-17-02947_A-2_HE_40X_050824.tif,SH-17-02947_A-2_HE_40X_050824,Non-responder,0,pT2,Yes,NR3,2,none,.tif,1,1,1
+UW_399-1,SH-17-04101_A-1_HE_40X_050824.tif,SH-17-04101_A-1_HE_40X_050824,Non-responder,0,pT4a,Yes,NR4,3,none,.tif,1,1,1
+UW_401-1,SH-16-07943_A-4_HE_40X_050824.tif,SH-16-07943_A-4_HE_40X_050824,Non-responder,0,pT3a,No,NR4,3,none,.tif,1,1,1
+UW_403-1,SH-17-05005_A-1_HE_40X_050824.tif,SH-17-05005_A-1_HE_40X_050824,Non-responder,0,pT4a,Yes,NR4,3,none,.tif,1,1,1
+UW_406-1,SH-17-04623_B-1_HE_40X_050824.tif,SH-17-04623_B-1_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_407-1,SH-15-04544_A1-1_HE_40X_061224.tif,SH-15-04544_A1-1_HE_40X_061224,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_411-1,NBC_021_A1-1_HE_40X_MH083022.tif,NBC_021_A1-1_HE_40X_MH083022,Responder,1,pT0,No,R1,4,none,.tif,1,1,2
+UW_411-1,NBC_021_A7-1_HE_40X_MH083022.tif,NBC_021_A7-1_HE_40X_MH083022,Responder,1,pT0,No,R1,4,none,.tif,1,0,2
+UW_411-2,NBC_022_A1-2_HE_40X_MH083022.tif,NBC_022_A1-2_HE_40X_MH083022,Responder,1,pT0,No,R1,4,none,.tif,1,0,1
+UW_414-1,NBC_018_A1-1_HE_40X_MH083022.tif,NBC_018_A1-1_HE_40X_MH083022,Responder,1,pT0,No,R1,4,squamous,.tif,1,1,2
+UW_414-1,NBC_018_A2-1_HE_40X_MH083122.tif,NBC_018_A2-1_HE_40X_MH083122,Responder,1,pT0,No,R1,4,squamous,.tif,1,0,2
+UW_415-1,SH-17-08123_A-1_HE_40X_050824.tif,SH-17-08123_A-1_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_416-1,SH-16-01236_A-1_HE_40X_050824.tif,SH-16-01236_A-1_HE_40X_050824,Responder,1,pTis,No,R2,5,none,.tif,1,1,1
+UW_418-1,SH-18-04042_A-5_HE_40X_050824.tif,SH-18-04042_A-5_HE_40X_050824,Non-responder,0,pT2,No,NR3,2,adenocarcinoma,.tif,1,1,1
+UW_462-1,SU-09-07626_A1_HE_40X_061224.tif,SU-09-07626_A1_HE_40X_061224,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_464-1,NBC_037_A1-1_HE_40X_MH083022.tif,NBC_037_A1-1_HE_40X_MH083022,Responder,1,pT0,No,R1,4,none,.tif,1,1,2
+UW_464-1,NBC_037_A2-1_HE_40X_MH083022.tif,NBC_037_A2-1_HE_40X_MH083022,Responder,1,pT0,No,R1,4,none,.tif,1,0,2
+UW_471-1,NBC_039_A1-1_HE_40X_MH083022.tif,NBC_039_A1-1_HE_40X_MH083022,Responder,1,pT0,No,R1,4,none,.tif,1,1,2
+UW_471-1,NBC_039_A2-1_HE_40X_MH083022.tif,NBC_039_A2-1_HE_40X_MH083022,Responder,1,pT0,No,R1,4,none,.tif,1,0,2
+UW_475-1,NBC_030_A2_HE_40X_MH083022.tif,NBC_030_A2_HE_40X_MH083022,Non-responder,0,pT4a,Yes,NR4,3,none,.tif,1,1,2
+UW_475-1,NBC_030_A5_HE_40X_MH083022.tif,NBC_030_A5_HE_40X_MH083022,Non-responder,0,pT4a,Yes,NR4,3,none,.tif,1,0,2
+UW_476-1,NBC_001_A2_HE_40X_MH083022.tif,NBC_001_A2_HE_40X_MH083022,Non-responder,0,pT0,No,NR1,0,none,.tif,1,1,1
+UW_476-2,NBC_032_A2-1_HE_40X_MH083022.tif,NBC_032_A2-1_HE_40X_MH083022,Non-responder,0,pT0,No,NR1,0,none,.tif,1,0,1
+UW_476-3,NBC_034_C1-1_HE_40X_MH083022.tif,NBC_034_C1-1_HE_40X_MH083022,Non-responder,0,pT0,No,NR1,0,none,.tif,1,0,1
+UW_488-1,NBC_004_A1-3_HE_40X_MH083122.tif,NBC_004_A1-3_HE_40X_MH083122,Responder,1,pTis,No,R2,5,none,.tif,1,1,2
+UW_488-1,NBC_004_A2-3_HE_40X_MH083122.tif,NBC_004_A2-3_HE_40X_MH083122,Responder,1,pTis,No,R2,5,none,.tif,1,0,2
+UW_506-1,SH-18-02229_A-4_HE_40X_050824.tif,SH-18-02229_A-4_HE_40X_050824,Non-responder,0,pT3a,No,NR4,3,none,.tif,1,1,1
+UW_514-1,SH-17-06693_A-2_HE_40X_050824.tif,SH-17-06693_A-2_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_519-1,SH-17-00688_A-2_HE_40X_050824.tif,SH-17-00688_A-2_HE_40X_050824,Non-responder,0,pT4a,No,NR4,3,none,.tif,1,1,1
+UW_548-1,SH-13-01398_A7-1_HE_40X_061224.tif,SH-13-01398_A7-1_HE_40X_061224,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_552-1,SH-13-03813_B-4_HE_40X_050824.tif,SH-13-03813_B-4_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_555-1,SH-16-08240_A-1_HE_40X_050824.tif,SH-16-08240_A-1_HE_40X_050824,Non-responder,0,pT4a,No,NR4,3,none,.tif,1,1,1
+UW_562-1,NBC_014_B2-1_HE_40X_MH083122.tif,NBC_014_B2-1_HE_40X_MH083122,Non-responder,0,pT1,No,NR2,1,none,.tif,1,0,4
+UW_562-1,NBC_014_B3-1_HE_40X_MH083122.tif,NBC_014_B3-1_HE_40X_MH083122,Non-responder,0,pT1,No,NR2,1,none,.tif,1,1,4
+UW_562-1,NBC_014_C1-1_HE_40X_MH083122.tif,NBC_014_C1-1_HE_40X_MH083122,Non-responder,0,pT1,No,NR2,1,none,.tif,1,0,4
+UW_562-1,NBC_014_D2_HE_40X_MH083122.tif,NBC_014_D2_HE_40X_MH083122,Non-responder,0,pT1,No,NR2,1,none,.tif,1,0,4
+UW_567-1,NBC_017_A1_HE_40X_MH083022.tif,NBC_017_A1_HE_40X_MH083022,Non-responder,0,pT4a,Yes,NR4,3,squamous,.tif,1,1,1
+UW_572-1,S-15-029264_B1-1_HE_40X_050824.tif,S-15-029264_B1-1_HE_40X_050824,Non-responder,0,pT3b,No,NR4,3,none,.tif,1,1,1
+UW_575-1,SH-17-01830_A-7_HE_40X_050824.tif,SH-17-01830_A-7_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_577-1,SH-17-03362_A-1_HE_40X_050824.tif,SH-17-03362_A-1_HE_40X_050824,Non-responder,0,pT3b,Yes,NR4,3,none,.tif,1,1,1
+UW_589-1,SH-18-00357_A-1_HE_40X_050824.tif,SH-18-00357_A-1_HE_40X_050824,Non-responder,0,pT3a,Yes,NR4,3,none,.tif,1,1,1
+UW_592-1,SH-18-02481_A-2_HE_40X_050824.tif,SH-18-02481_A-2_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_596-1,SH-16-05032_A-1_HE_40X_050824.tif,SH-16-05032_A-1_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_603-1,SH-16-05061_A-1_HE_40X_050824.tif,SH-16-05061_A-1_HE_40X_050824,Non-responder,0,pT3b,Yes,NR4,3,none,.tif,1,1,1
+UW_609-1,SH-17-04299_A-1_HE_40X_050824.tif,SH-17-04299_A-1_HE_40X_050824,Responder,1,pTis,No,R2,5,none,.tif,1,1,1
+UW_61-1,SH-21-00693_A-1_HE_40X_050824.tif,SH-21-00693_A-1_HE_40X_050824,Non-responder,0,pT3a,Yes,NR4,3,none,.tif,1,1,1
+UW_617-1,YS-16-01936_A8_HE_40X_050824.tif,YS-16-01936_A8_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_62-1,SN-17-02990_A1-3_HE_40X_MH021323.tif,SN-17-02990_A1-3_HE_40X_MH021323,Responder,1,pTa,No,R2,5,none,.tif,1,1,1
+UW_635-1,SH-17-07382_A-5_HE_40X_050824.tif,SH-17-07382_A-5_HE_40X_050824,Non-responder,0,pT3b,Yes,NR4,3,plasmacytoid/diffuse/signet,.tif,1,1,1
+UW_71-1,SH-21-01102_A2-1_HE_40X_MH021323.tif,SH-21-01102_A2-1_HE_40X_MH021323,Responder,1,pTis,No,R2,5,none,.tif,1,1,1
+UW_711-1,NS-15-034408_1-A-L2_HE_40X_050824.tif,NS-15-034408_1-A-L2_HE_40X_050824,Non-responder,0,pT4a,Yes,NR4,3,none,.tif,1,1,1
+UW_721-1,SH-18-07193_A-7_HE_40X_050824.tif,SH-18-07193_A-7_HE_40X_050824,Non-responder,0,pT3a,No,NR4,3,none,.tif,1,1,1
+UW_75-1,SH22-00321_A1-1_HE_40X_MH021323.tif,SH22-00321_A1-1_HE_40X_MH021323,Non-responder,0,pT2,No,NR3,2,none,.tif,1,1,1
+UW_801-1,SH-18-07897_A1-1_HE_40X_MH021323.tif,SH-18-07897_A1-1_HE_40X_MH021323,Non-responder,0,pT3a,Yes,NR4,3,none,.tif,1,1,1
+UW_802-1,SH-12-05282_A1-1_HE_40X_061224.tif,SH-12-05282_A1-1_HE_40X_061224,Non-responder,0,pT3b,No,NR4,3,none,.tif,1,1,1
+UW_843-1,SH-14-07391_A-3_HE_40X_050824.tif,SH-14-07391_A-3_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_865-1,SH-16-01863_A-2_HE_40X_050824.tif,SH-16-01863_A-2_HE_40X_050824,Responder,1,pTis,No,R2,5,none,.tif,1,1,1
+UW_868-1,SH-15-07421_B-2_HE_40X_050824.tif,SH-15-07421_B-2_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_873-1,SH-16-01044_B-4_HE_40X_050824.tif,SH-16-01044_B-4_HE_40X_050824,Responder,1,pT0,No,R1,4,none,.tif,1,1,1
+UW_906-1,SH-16-06849_A-11_HE_40X_061224.tif,SH-16-06849_A-11_HE_40X_061224,Non-responder,0,pT4a,Yes,NR4,3,none,.tif,1,1,1
+UW_913-1,SH-18-02439_A2-1_HE_40X_MH021323.tif,SH-18-02439_A2-1_HE_40X_MH021323,Non-responder,0,pT3a,Yes,NR4,3,other,.tif,1,1,1
+UW_937-1,SH-18-05055_A-4_HE_40X_050824.tif,SH-18-05055_A-4_HE_40X_050824,Responder,1,pTis,No,R2,5,none,.tif,1,1,1
+UW_949-1,SH-14-08114_A-1_HE_40X_050824.tif,SH-14-08114_A-1_HE_40X_050824,Non-responder,0,pT3b,No,NR4,3,none,.tif,1,1,1
+UW_961-1,SH-15-04324_A2-1_HE_40X_061224.tif,SH-15-04324_A2-1_HE_40X_061224,Non-responder,0,pT1,Yes,NR2,1,none,.tif,1,1,1
+YSMB10-1,YSMB10.svs,YSMB10,Non-responder,0,T4b,,NR4,3,none,.svs,2,1,1
+YSMB1-1,YSMB1.svs,YSMB1,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB11-1,YSMB11.svs,YSMB11,Non-responder,0,T2b,,NR3,2,none,.svs,2,1,1
+YSMB12-1,YSMB12(1).svs,YSMB12(1),Non-responder,0,pT1,,NR2,1,none,.svs,2,1,2
+YSMB12-1,YSMB12.svs,YSMB12,Non-responder,0,pT1,,NR2,1,none,.svs,2,0,2
+YSMB13-1,YSMB13.svs,YSMB13,Non-responder,0,T4a,,NR4,3,none,.svs,2,1,1
+YSMB14-1,YSMB14.svs,YSMB14,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB15-1,YSMB15.svs,YSMB15,Non-responder,0,T4b,,NR4,3,none,.svs,2,1,1
+YSMB17-1,YSMB17.svs,YSMB17,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB18-1,YSMB18.svs,YSMB18,Non-responder,0,T3b,,NR4,3,none,.svs,2,1,1
+YSMB19-1,YSMB19.svs,YSMB19,Non-responder,0,pT1,,NR2,1,none,.svs,2,1,1
+YSMB20-1,YSMB20.svs,YSMB20,Non-responder,0,pT1,,NR2,1,none,.svs,2,1,1
+YSMB2-1,YSMB2.svs,YSMB2,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB21-1,YSMB21.svs,YSMB21,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB22-1,YSMB22.svs,YSMB22,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB23-1,YSMB23.svs,YSMB23,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB24-1,YSMB24.svs,YSMB24,Responder,1,pTis,,R2,5,none,.svs,2,1,1
+YSMB25-1,YSMB25.svs,YSMB25,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB26-1,YSMB26.svs,YSMB26,Non-responder,0,T3b,,NR4,3,none,.svs,2,1,1
+YSMB27-1,YSMB27.svs,YSMB27,Non-responder,0,T4a,,NR4,3,none,.svs,2,1,1
+YSMB28-1,YSMB28.svs,YSMB28,Non-responder,0,T3b,,NR4,3,none,.svs,2,1,1
+YSMB29-1,YSMB29.svs,YSMB29,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB30-1,YSMB30.svs,YSMB30,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB3-1,YSMB3.svs,YSMB3,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB31-1,YSMB31.svs,YSMB31,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB32-1,YSMB32.svs,YSMB32,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB33-1,YSMB33.svs,YSMB33,Non-responder,0,T2a,,NR3,2,none,.svs,2,1,1
+YSMB35-1,YSMB35.svs,YSMB35,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB36-1,YSMB36.svs,YSMB36,Non-responder,0,T4a,,NR4,3,none,.svs,2,1,1
+YSMB37-1,YSMB37.svs,YSMB37,Non-responder,0,T4a,,NR4,3,none,.svs,2,1,1
+YSMB38-1,YSMB38.svs,YSMB38,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB39-1,YSMB39.svs,YSMB39,Non-responder,0,T0N1,,NR1,0,none,.svs,2,1,1
+YSMB40-1,YSMB40.svs,YSMB40,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB4-1,YSMB4.svs,YSMB4,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB41-1,YSMB41.svs,YSMB41,Responder,1,pTis,,R2,5,none,.svs,2,1,1
+YSMB42-1,YSMB42.svs,YSMB42,Non-responder,0,T2b,,NR3,2,none,.svs,2,1,1
+YSMB43-1,YSMB43.svs,YSMB43,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB44-1,YSMB44.svs,YSMB44,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB45-1,YSMB45.svs,YSMB45,Responder,1,pTis,,R2,5,none,.svs,2,1,1
+YSMB46-1,YSMB46.svs,YSMB46,Responder,1,pTis,,R2,5,none,.svs,2,1,1
+YSMB47-1,YSMB47.svs,YSMB47,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB48-1,YSMB48.svs,YSMB48,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB49-1,YSMB49.svs,YSMB49,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB50-1,YSMB50.svs,YSMB50,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB5-1,YSMB5.svs,YSMB5,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB51-1,YSMB51.svs,YSMB51,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB52-1,YSMB52.svs,YSMB52,Non-responder,0,T3b,,NR4,3,none,.svs,2,1,1
+YSMB53-1,YSMB53.svs,YSMB53,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB54-1,YSMB54.svs,YSMB54,Responder,1,pTis,,R2,5,none,.svs,2,1,1
+YSMB55-1,YSMB55.svs,YSMB55,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB56-1,YSMB56.svs,YSMB56,Non-responder,0,T3b,,NR4,3,none,.svs,2,1,1
+YSMB57-1,YSMB57.svs,YSMB57,Responder,1,pTis,,R2,5,none,.svs,2,1,1
+YSMB58-1,YSMB58.svs,YSMB58,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB59-1,YSMB59.svs,YSMB59,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB60-1,YSMB60.svs,YSMB60,Non-responder,0,T2b,,NR3,2,none,.svs,2,1,1
+YSMB61-1,YSMB61.svs,YSMB61,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB62-1,YSMB62.svs,YSMB62,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB63-1,YSMB63.svs,YSMB63,Non-responder,0,T3b,,NR4,3,none,.svs,2,1,1
+YSMB64-1,YSMB64.svs,YSMB64,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB65-1,YSMB65.svs,YSMB65,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB66-1,YSMB66.svs,YSMB66,Responder,1,pTis,,R2,5,none,.svs,2,1,1
+YSMB67-1,YSMB67.svs,YSMB67,Non-responder,0,T2b,,NR3,2,none,.svs,2,1,1
+YSMB68-1,YSMB68.svs,YSMB68,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB69-1,YSMB69.svs,YSMB69,Non-responder,0,T4b,,NR4,3,none,.svs,2,1,1
+YSMB70-1,YSMB70.svs,YSMB70,Non-responder,0,T4a,,NR4,3,none,.svs,2,1,1
+YSMB7-1,YSMB7.svs,YSMB7,Non-responder,0,T4b,,NR4,3,none,.svs,2,1,1
+YSMB71-1,YSMB71.svs,YSMB71,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB72-1,YSMB72.svs,YSMB72,Non-responder,0,T4a,,NR4,3,none,.svs,2,1,1
+YSMB73-1,YSMB73.svs,YSMB73,Responder,1,pT0,,R1,4,none,.svs,2,1,1
+YSMB8-1,YSMB8.svs,YSMB8,Non-responder,0,T3a,,NR4,3,none,.svs,2,1,1
+YSMB9-1,YSMB9.svs,YSMB9,Non-responder,0,T4a,,NR4,3,none,.svs,2,1,1
+UBC_520,SC13-5085 A1.svs,SC13-5085 A1,Non-responder,0,,,,,,.svs,3,0,2
+UBC_520,SC13-5085 A3.svs,SC13-5085 A3,Non-responder,0,,,,,,.svs,3,1,2
+UBC_527,H_FS_11-S-13-011836-1. A-1_Dr Peter Black.scn,H_FS_11-S-13-011836-1. A-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,4
+UBC_527,H_FS_11-S-13-011836-1.B-1_Dr Peter Black.scn,H_FS_11-S-13-011836-1.B-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,4
+UBC_527,H_FS_11-S-13-011836-1.C-1_Dr Peter Black.scn,H_FS_11-S-13-011836-1.C-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,1,4
+UBC_527,H_FS_11-S-13-011836-1.D-1_Dr Peter Black.scn,H_FS_11-S-13-011836-1.D-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,4
+UBC_534,PS13-19683-1.svs,PS13-19683-1,Responder,1,,,,,,.svs,3,1,1
+UBC_541,SV13-10671-A6.svs,SV13-10671-A6,Non-responder,0,,,,,,.svs,3,1,1
+UBC_544,H_FS_11-S-13-013850-1.A-1_Dr Peter Black.scn,H_FS_11-S-13-013850-1.A-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,6
+UBC_544,H_FS_11-S-13-013850-1.B-1_Dr Peter Black.scn,H_FS_11-S-13-013850-1.B-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,6
+UBC_544,H_FS_11-S-13-013850-1.C-1_Dr Peter Black.scn,H_FS_11-S-13-013850-1.C-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,1,6
+UBC_544,H_FS_11-S-13-013850-1.D-1_Dr Peter Black.scn,H_FS_11-S-13-013850-1.D-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,6
+UBC_544,H_FS_11-S-13-013850-2.A-1_Dr Peter Black.scn,H_FS_11-S-13-013850-2.A-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,6
+UBC_544,H_FS_11-S-13-013850-2.B-1_Dr Peter Black.scn,H_FS_11-S-13-013850-2.B-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,6
+UBC_551,ST13-7828 A2.svs,ST13-7828 A2,Non-responder,0,,,,,,.svs,3,0,2
+UBC_551,ST13-7828 A3.svs,ST13-7828 A3,Non-responder,0,,,,,,.svs,3,1,2
+UBC_568,SV14-120-A1.svs,SV14-120-A1,Non-responder,0,,,,,,.svs,3,1,2
+UBC_568,SV14-120-A2.svs,SV14-120-A2,Non-responder,0,,,,,,.svs,3,0,2
+UBC_583,SV14-3174 A1.svs,SV14-3174 A1,Non-responder,0,,,,,,.svs,3,0,3
+UBC_583,SV14-3174 A2.svs,SV14-3174 A2,Non-responder,0,,,,,,.svs,3,1,3
+UBC_583,SV14-3174 A4.svs,SV14-3174 A4,Non-responder,0,,,,,,.svs,3,0,3
+UBC_602,H_FS_14AS-8081-7A_Dr P-Black New NAC_2019-06-05 13_48_43.scn,H_FS_14AS-8081-7A_Dr P-Black New NAC_2019-06-05 13_48_43,Responder,1,,,,,,.scn,3,0,4
+UBC_602,H_FS_14AS-8081-7B_Dr P-Black New NAC_2019-06-05 13_50_29.scn,H_FS_14AS-8081-7B_Dr P-Black New NAC_2019-06-05 13_50_29,Responder,1,,,,,,.scn,3,0,4
+UBC_602,H_FS_14AS-8081-7C_Dr P-Black New NAC_2019-06-05 13_51_36.scn,H_FS_14AS-8081-7C_Dr P-Black New NAC_2019-06-05 13_51_36,Responder,1,,,,,,.scn,3,1,4
+UBC_602,H_FS_14AS-8081-7D_Dr P-Black New NAC_2019-06-05 13_53_05.scn,H_FS_14AS-8081-7D_Dr P-Black New NAC_2019-06-05 13_53_05,Responder,1,,,,,,.scn,3,0,4
+UBC_612,VS14-30040 A3.svs,VS14-30040 A3,Responder,1,,,,,,.svs,3,0,3
+UBC_612,VS14-30040 A4.svs,VS14-30040 A4,Responder,1,,,,,,.svs,3,1,3
+UBC_612,VS14-30040 A6.svs,VS14-30040 A6,Responder,1,,,,,,.svs,3,0,3
+UBC_636,H_FS_11-S-14-014540-1.A-1_Dr Peter Black.scn,H_FS_11-S-14-014540-1.A-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,3
+UBC_636,H_FS_11-S-14-014540-1.B-1_Dr Peter Black.scn,H_FS_11-S-14-014540-1.B-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,3
+UBC_636,H_FS_11-S-14-014540-1.C-1_Dr Peter Black.scn,H_FS_11-S-14-014540-1.C-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,1,3
+UBC_641,H_FS_11-S-14-003044-1.A-1_Dr Peter Black.scn,H_FS_11-S-14-003044-1.A-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,2
+UBC_641,H_FS_11-S-14-003044-1.B-1_Dr Peter Black.scn,H_FS_11-S-14-003044-1.B-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,1,2
+UBC_648,ST14-6626 A1 deeper.svs,ST14-6626 A1 deeper,Responder,1,,,,,,.svs,3,1,2
+UBC_648,ST14-6626 A2 L3.svs,ST14-6626 A2 L3,Responder,1,,,,,,.svs,3,0,2
+UBC_654,H_FS_11-S-14-016520-1.A-1_Dr Peter Black.scn,H_FS_11-S-14-016520-1.A-1_Dr Peter Black,Responder,1,,,,,,.scn,3,0,6
+UBC_654,H_FS_11-S-14-016520-1.B-1_Dr P.Black.scn,H_FS_11-S-14-016520-1.B-1_Dr P.Black,Responder,1,,,,,,.scn,3,0,6
+UBC_654,H_FS_11-S-14-016520-1.C-1_Dr Peter Black.scn,H_FS_11-S-14-016520-1.C-1_Dr Peter Black,Responder,1,,,,,,.scn,3,0,6
+UBC_654,H_FS_11-S-14-016520-1.D-1_Dr Peter Black.scn,H_FS_11-S-14-016520-1.D-1_Dr Peter Black,Responder,1,,,,,,.scn,3,0,6
+UBC_654,H_FS_11-S-14-016520-1.E-1_Dr Peter Black.scn,H_FS_11-S-14-016520-1.E-1_Dr Peter Black,Responder,1,,,,,,.scn,3,1,6
+UBC_654,H_FS_11-S-14-016520-1.F-1_Dr Peter Black.scn,H_FS_11-S-14-016520-1.F-1_Dr Peter Black,Responder,1,,,,,,.scn,3,0,6
+UBC_663,ST14-3556 A1 L3.svs,ST14-3556 A1 L3,Non-responder,0,,,,,,.svs,3,1,1
+UBC_672,SV15-3164-A1.svs,SV15-3164-A1,Responder,1,,,,,,.svs,3,1,2
+UBC_672,SV15-3164-A2.svs,SV15-3164-A2,Responder,1,,,,,,.svs,3,0,2
+UBC_680,H_FS_15-AS-3323-1 D-1_Dr Peter Black.scn,H_FS_15-AS-3323-1 D-1_Dr Peter Black,Non-responder,0,,,,,,.scn,3,0,4
+UBC_680,H_FS_15AS-3323-1B_Dr P-Black New NAC_2019-06-05 13_54_32.scn,H_FS_15AS-3323-1B_Dr P-Black New NAC_2019-06-05 13_54_32,Non-responder,0,,,,,,.scn,3,0,4
+UBC_680,H_FS_15AS-3323-1C_Dr P-Black New NAC_2019-06-05 13_56_12.scn,H_FS_15AS-3323-1C_Dr P-Black New NAC_2019-06-05 13_56_12,Non-responder,0,,,,,,.scn,3,1,4
+UBC_680,H_FS_15AS-3323-1E_Dr P-Black New NAC_2019-06-05 13_59_12.scn,H_FS_15AS-3323-1E_Dr P-Black New NAC_2019-06-05 13_59_12,Non-responder,0,,,,,,.scn,3,0,4
+UBC_683,SC15-2057-A2-3.svs,SC15-2057-A2-3,Non-responder,0,,,,,,.svs,3,1,1
+UBC_684,H_FS_11-S-15-006378-1.AA-1_Dr Peter Black.scn,H_FS_11-S-15-006378-1.AA-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,5
+UBC_684,H_FS_11-S-15-006378-1.C-1_Dr Peter Black.scn,H_FS_11-S-15-006378-1.C-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,5
+UBC_684,H_FS_11-S-15-006378-1.D-1_Dr Peter Black.scn,H_FS_11-S-15-006378-1.D-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,5
+UBC_684,H_FS_11-S-15-006378-1.R-1_Dr Peter Black.scn,H_FS_11-S-15-006378-1.R-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,1,5
+UBC_684,H_FS_11-S-15-006378-1.V-1_Dr Peter Black.scn,H_FS_11-S-15-006378-1.V-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,5
+UBC_688,VS15-22234 A2.svs,VS15-22234 A2,Non-responder,0,,,,,,.svs,3,0,2
+UBC_688,VS15-22234 A6.svs,VS15-22234 A6,Non-responder,0,,,,,,.svs,3,1,2
+UBC_689,NS15-7579 A3.svs,NS15-7579 A3,Non-responder,0,,,,,,.svs,3,1,1
+UBC_696,H_FS_11-S-15-004350-1.A-1_Dr Peter Black.scn,H_FS_11-S-15-004350-1.A-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,5
+UBC_696,H_FS_11-S-15-004350-1.B-1_Dr Peter Black.scn,H_FS_11-S-15-004350-1.B-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,5
+UBC_696,H_FS_11-S-15-004350-1.B-2_Dr Peter Black.scn,H_FS_11-S-15-004350-1.B-2_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,5
+UBC_696,H_FS_11-S-15-004350-1.C-1_Dr Peter Black.scn,H_FS_11-S-15-004350-1.C-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,1,5
+UBC_696,H_FS_11-S-15-004350-2.A-1_Dr Peter Black.scn,H_FS_11-S-15-004350-2.A-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,5
+UBC_713,H_FS_11-S-15-011427-1.C-1_Dr Peter Black.scn,H_FS_11-S-15-011427-1.C-1_Dr Peter Black,Responder,1,,,,,,.scn,3,0,2
+UBC_713,H_FS_11-S-15-011427-2.A-1_Dr Peter Black.scn,H_FS_11-S-15-011427-2.A-1_Dr Peter Black,Responder,1,,,,,,.scn,3,1,2
+UBC_722,H_FS_SK15-18833-A4_Dr P-Black New NAC_2019-06-05 13_38_02.scn,H_FS_SK15-18833-A4_Dr P-Black New NAC_2019-06-05 13_38_02,Non-responder,0,,,,,,.scn,3,0,5
+UBC_722,H_FS_SK15-18833-A5_Dr P-Black New NAC_2019-06-05 13_40_25.scn,H_FS_SK15-18833-A5_Dr P-Black New NAC_2019-06-05 13_40_25,Non-responder,0,,,,,,.scn,3,0,5
+UBC_722,H_FS_SK15-18833-A6_Dr P-Black New NAC_2019-06-05 13_40_39.scn,H_FS_SK15-18833-A6_Dr P-Black New NAC_2019-06-05 13_40_39,Non-responder,0,,,,,,.scn,3,1,5
+UBC_722,H_FS_SK15-18833-B1_Dr P-Black New NAC_2019-06-05 13_44_42.scn,H_FS_SK15-18833-B1_Dr P-Black New NAC_2019-06-05 13_44_42,Non-responder,0,,,,,,.scn,3,0,5
+UBC_722,H_FS_SK15-18833-C1_Dr P-Black New NAC_2019-06-05 13_45_16.scn,H_FS_SK15-18833-C1_Dr P-Black New NAC_2019-06-05 13_45_16,Non-responder,0,,,,,,.scn,3,0,5
+UBC_723,H_FS_11-S-15-009940-1.C-1_Dr Peter Black.scn,H_FS_11-S-15-009940-1.C-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,1,4
+UBC_723,H_FS_11-S-15-009940-1.D-1_Dr Peter Black.scn,H_FS_11-S-15-009940-1.D-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,4
+UBC_723,H_FS_11-S-15-009940-1.E-1_Dr Peter Black.scn,H_FS_11-S-15-009940-1.E-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,4
+UBC_723,H_FS_11-S-15-009940-1.F-1_Dr Peter Black.scn,H_FS_11-S-15-009940-1.F-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,4
+UBC_733,SV15-12062-A1.svs,SV15-12062-A1,Non-responder,0,,,,,,.svs,3,1,1
+UBC_735,H_FS_SK15-20697-A1_H and E_Dr P. Black New NAC_2019-06-10 11_17_44.scn,H_FS_SK15-20697-A1_H and E_Dr P. Black New NAC_2019-06-10 11_17_44,Non-responder,0,,,,,,.scn,3,0,6
+UBC_735,H_FS_SK15-20697-A2_H and E_Dr P. Black New NAC_2019-06-10 11_19_19.scn,H_FS_SK15-20697-A2_H and E_Dr P. Black New NAC_2019-06-10 11_19_19,Non-responder,0,,,,,,.scn,3,0,6
+UBC_735,H_FS_SK15-20697-A3_H and E_Dr P. Black New NAC_2019-06-10 11_21_41.scn,H_FS_SK15-20697-A3_H and E_Dr P. Black New NAC_2019-06-10 11_21_41,Non-responder,0,,,,,,.scn,3,1,6
+UBC_735,H_FS_SK15-20697-A4_H and E_Dr P. Black New NAC_2019-06-10 11_23_09.scn,H_FS_SK15-20697-A4_H and E_Dr P. Black New NAC_2019-06-10 11_23_09,Non-responder,0,,,,,,.scn,3,0,6
+UBC_735,H_FS_SK15-20697-A5_H and E_Dr P. Black New NAC_2019-06-10 11_26_23.scn,H_FS_SK15-20697-A5_H and E_Dr P. Black New NAC_2019-06-10 11_26_23,Non-responder,0,,,,,,.scn,3,0,6
+UBC_735,H_FS_SK15-20697-A6_H and E_Dr P. Black New NAC_2019-06-10 11_27_25.scn,H_FS_SK15-20697-A6_H and E_Dr P. Black New NAC_2019-06-10 11_27_25,Non-responder,0,,,,,,.scn,3,0,6
+UBC_738,H_FS_11-S-15-016526-1.A-1_Dr Peter Black.scn,H_FS_11-S-15-016526-1.A-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,3
+UBC_738,H_FS_11-S-15-016526-1.B-1_Dr Peter Black.scn,H_FS_11-S-15-016526-1.B-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,3
+UBC_738,H_FS_11-S-15-016526-1.C-1_Dr Peter Black.scn,H_FS_11-S-15-016526-1.C-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,1,3
+UBC_740,SP16-18 A2.svs,SP16-18 A2,Non-responder,0,,,,,,.svs,3,1,1
+UBC_742,15BS-11195-1A.svs,15BS-11195-1A,Non-responder,0,,,,,,.svs,3,1,1
+UBC_748,VS15-42827 A1.svs,VS15-42827 A1,Responder,1,,,,,,.svs,3,0,3
+UBC_748,VS15-42827 A3.svs,VS15-42827 A3,Responder,1,,,,,,.svs,3,0,3
+UBC_748,VS15-42827 A4.svs,VS15-42827 A4,Responder,1,,,,,,.svs,3,1,3
+UBC_752,H_FS_11-S-15-012477-1.A-1_Dr Peter Black.scn,H_FS_11-S-15-012477-1.A-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,6
+UBC_752,H_FS_11-S-15-012477-1.B-1_Dr Peter Black.scn,H_FS_11-S-15-012477-1.B-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,6
+UBC_752,H_FS_11-S-15-012477-1.C-1_Dr Peter Black.scn,H_FS_11-S-15-012477-1.C-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,6
+UBC_752,H_FS_11-S-15-012477-1.D-1_Dr Peter Black.scn,H_FS_11-S-15-012477-1.D-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,6
+UBC_752,H_FS_11-S-15-012477-1.E-1_Dr Peter Black.scn,H_FS_11-S-15-012477-1.E-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,1,6
+UBC_752,H_FS_11-S-15-012477-1.F-1_Dr Peter Black.scn,H_FS_11-S-15-012477-1.F-1_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,6
+UBC_754,H_FS_VS15-28965-A1_2018-01-12 13_03_44.scn,H_FS_VS15-28965-A1_2018-01-12 13_03_44,Non-responder,0,,,,,,.scn,3,0,6
+UBC_754,H_FS_VS15-28965-A2_2018-01-12 13_21_48.scn,H_FS_VS15-28965-A2_2018-01-12 13_21_48,Non-responder,0,,,,,,.scn,3,0,6
+UBC_754,H_FS_VS15-28965-A3_2018-01-12 13_24_58.scn,H_FS_VS15-28965-A3_2018-01-12 13_24_58,Non-responder,0,,,,,,.scn,3,1,6
+UBC_754,H_FS_VS15-28965-A4_2018-01-12 13_07_13.scn,H_FS_VS15-28965-A4_2018-01-12 13_07_13,Non-responder,0,,,,,,.scn,3,0,6
+UBC_754,H_FS_VS15-28965-A5_2018-01-12 13_08_51.scn,H_FS_VS15-28965-A5_2018-01-12 13_08_51,Non-responder,0,,,,,,.scn,3,0,6
+UBC_754,H_FS_VS15-28965-A6_2018-01-12 13_03_43.scn,H_FS_VS15-28965-A6_2018-01-12 13_03_43,Non-responder,0,,,,,,.scn,3,0,6
+UBC_757,PS16-4015 A1.svs,PS16-4015 A1,Responder,1,,,,,,.svs,3,1,1
+UBC_767,SP16-1189 A1.svs,SP16-1189 A1,Non-responder,0,,,,,,.svs,3,0,2
+UBC_767,SP16-1189 A2.svs,SP16-1189 A2,Non-responder,0,,,,,,.svs,3,1,2
+UBC_768,H_FS_SS-1665-1A-01_B1K-H and E_SMH-2016_Dr P-Black_2019-06-05 09_28_47.scn,H_FS_SS-1665-1A-01_B1K-H and E_SMH-2016_Dr P-Black_2019-06-05 09_28_47,Responder,1,,,,,,.scn,3,1,2
+UBC_768,H_FS_SS-1665-2A-01_B1K-H and E_SMH-2016_Dr P-Black_2019-06-05 09_26_22.scn,H_FS_SS-1665-2A-01_B1K-H and E_SMH-2016_Dr P-Black_2019-06-05 09_26_22,Responder,1,,,,,,.scn,3,0,2
+UBC_779,H_FS_11-S-16-005558-2.A-2_Dr Peter Black.scn,H_FS_11-S-16-005558-2.A-2_Dr Peter Black,non-responder,0,,,,,,.scn,3,0,2
+UBC_779,H_FS_11-S-16-005558-2.B-2_Dr Peter Black.scn,H_FS_11-S-16-005558-2.B-2_Dr Peter Black,non-responder,0,,,,,,.scn,3,1,2
+UBC_790,SP-15-12065 A1.svs,SP-15-12065 A1,Responder,1,,,,,,.svs,3,1,2
+UBC_790,SP-15-12065 A2.svs,SP-15-12065 A2,Responder,1,,,,,,.svs,3,0,2
+UBC_797,H_FS_SS-12969-1A-1-SMH_Dr P-Black New NAC_2019-06-06 14_37_28.scn,H_FS_SS-12969-1A-1-SMH_Dr P-Black New NAC_2019-06-06 14_37_28,Responder,1,,,,,,.scn,3,1,4
+UBC_797,H_FS_SS-12969-1B-1-SMH_Dr P-Black New NAC_2019-06-06 14_38_43.scn,H_FS_SS-12969-1B-1-SMH_Dr P-Black New NAC_2019-06-06 14_38_43,Responder,1,,,,,,.scn,3,0,4
+UBC_797,H_FS_SS-12969-1C-1-SMH_Dr P-Black New NAC_2019-06-06 14_41_14.scn,H_FS_SS-12969-1C-1-SMH_Dr P-Black New NAC_2019-06-06 14_41_14,Responder,1,,,,,,.scn,3,0,4
+UBC_797,H_FS_SS-12969-1D-1-SMH_Dr P-Black New NAC_2019-06-06 14_41_44.scn,H_FS_SS-12969-1D-1-SMH_Dr P-Black New NAC_2019-06-06 14_41_44,Responder,1,,,,,,.scn,3,0,4
+UBC_806,H_FS_SS-20142-1A-1_B1K+H and E_2016_Dr P. Black Ne_2019-06-10 09_46_09.scn,H_FS_SS-20142-1A-1_B1K+H and E_2016_Dr P. Black Ne_2019-06-10 09_46_09,Non-responder,0,,,,,,.scn,3,0,5
+UBC_806,H_FS_SS-20142-1B-1_B1K+H and E_2016_Dr P. Black Ne_2019-06-10 09_49_43.scn,H_FS_SS-20142-1B-1_B1K+H and E_2016_Dr P. Black Ne_2019-06-10 09_49_43,Non-responder,0,,,,,,.scn,3,0,5
+UBC_806,H_FS_SS-20142-1C-1_B1K+H and E_2016_Dr P. Black Ne_2019-06-10 09_49_53.scn,H_FS_SS-20142-1C-1_B1K+H and E_2016_Dr P. Black Ne_2019-06-10 09_49_53,Non-responder,0,,,,,,.scn,3,0,5
+UBC_806,H_FS_SS-20142-1D-1_B1K+H and E_2016_Dr P. Black Ne_2019-06-10 09_52_32.scn,H_FS_SS-20142-1D-1_B1K+H and E_2016_Dr P. Black Ne_2019-06-10 09_52_32,Non-responder,0,,,,,,.scn,3,1,5
+UBC_806,H_FS_SS-20142-1E-1_B1K+H and E_2016_Dr P. Black Ne_2019-06-10 09_53_09.scn,H_FS_SS-20142-1E-1_B1K+H and E_2016_Dr P. Black Ne_2019-06-10 09_53_09,Non-responder,0,,,,,,.scn,3,0,5
+UBC_807,SP16-5251 A1.svs,SP16-5251 A1,Non-responder,0,,,,,,.svs,3,1,2
+UBC_807,SP16-5251 A2.svs,SP16-5251 A2,Non-responder,0,,,,,,.svs,3,0,2
+UBC_808,H_FS_SS-23577-1A-1_B1K+H and Ex_SMH-2016_Dr P. Bla_2019-06-10 11_47_33.scn,H_FS_SS-23577-1A-1_B1K+H and Ex_SMH-2016_Dr P. Bla_2019-06-10 11_47_33,Non-responder,0,,,,,,.scn,3,0,4
+UBC_808,H_FS_SS-23577-1B-1-SMH_Dr P-Black New NAC_2019-06-06 14_31_38.scn,H_FS_SS-23577-1B-1-SMH_Dr P-Black New NAC_2019-06-06 14_31_38,Non-responder,0,,,,,,.scn,3,0,4
+UBC_808,H_FS_SS-23577-1C-1-SMH_Dr P-Black New NAC_2019-06-06 14_31_38.scn,H_FS_SS-23577-1C-1-SMH_Dr P-Black New NAC_2019-06-06 14_31_38,Non-responder,0,,,,,,.scn,3,1,4
+UBC_808,H_FS_SS-23577-1D-1-SMH_Dr P-Black New NAC_2019-06-06 14_34_54.scn,H_FS_SS-23577-1D-1-SMH_Dr P-Black New NAC_2019-06-06 14_34_54,Non-responder,0,,,,,,.scn,3,0,4
+UCD_1,UCD_1.svs,UCD_1,Responder,1,T0,,,,,.svs,4,1,1
+UCD_10,UCD_10.svs,UCD_10,Non-responder,0,T0,,,,,.svs,4,1,1
+UCD_11,UCD_11.svs,UCD_11,Non-responder,0,T3b,,,,,.svs,4,1,1
+UCD_12,UCD_12.svs,UCD_12,Non-responder,0,T3a,,,,,.svs,4,1,1
+UCD_13,UCD_13.svs,UCD_13,Responder,1,T0,,,,,.svs,4,1,1
+UCD_14,UCD_14.svs,UCD_14,Responder,1,T0,,,,,.svs,4,1,1
+UCD_15,UCD_15.svs,UCD_15,Non-responder,0,T3,,,,,.svs,4,1,1
+UCD_16,UCD_16.svs,UCD_16,Non-responder,0,T2a,,,,,.svs,4,1,1
+UCD_17,UCD_17.svs,UCD_17,Responder,1,T0,,,,,.svs,4,1,1
+UCD_18,UCD_18.svs,UCD_18,Responder,1,T0,,,,,.svs,4,1,1
+UCD_19,UCD_19.svs,UCD_19,Non-responder,0,T4a,,,,,.svs,4,1,1
+UCD_2,UCD_2.svs,UCD_2,Responder,1,T0,,,,,.svs,4,1,1
+UCD_3,UCD_3.svs,UCD_3,Non-responder,0,T3a,,,,,.svs,4,1,1
+UCD_3_5,UCD_3_5.svs,UCD_3_5,Non-responder,0,T4a,,,,,.svs,4,1,1
+UCD_4,UCD_4.svs,UCD_4,Responder,1,T0,,,,,.svs,4,1,1
+UCD_5,UCD_5.svs,UCD_5,Non-responder,0,T3a,,,,,.svs,4,1,1
+UCD_6,UCD_6.svs,UCD_6,Non-responder,0,T4a,,,,,.svs,4,1,1
+UCD_8,UCD_8.svs,UCD_8,Non-responder,0,Tis,,,,,.svs,4,1,1
+UCD_9,UCD_9.svs,UCD_9,Non-responder,0,T3a,,,,,.svs,4,1,1
+Utah_1,130004222 1C1.ndpi,130004222 1C1,Responder,1,"pT0N0 bladder, pT2cNo prostate",,,,,.ndpi,5,1,1
+Utah_10,150010455+006003001+4.ndpi,150010455+006003001+4,Non-responder,0,pT3aN1,,,,,.ndpi,5,1,1
+Utah_11,150013389+001002001+1.ndpi,150013389+001002001+1,Non-responder,0,pT2bN0 (0.7cm tumor),,,,,.ndpi,5,1,1
+Utah_12,150014730+001002001+0.ndpi,150014730+001002001+0,Responder,1,"pT0N0 bladder, pT2cNo prostate",,,,,.ndpi,5,1,1
+Utah_13,160011206+001001001+5.ndpi,160011206+001001001+5,Non-responder,0,ypT2bN0 (and CIS),,,,,.ndpi,5,1,1
+Utah_14,160016045+001001001+9.ndpi,160016045+001001001+9,Responder,1,ypT0N0,,,,,.ndpi,5,1,1
+Utah_15,170000955+001002001+.ndpi,170000955+001002001+,Responder,1,ypT0N0,,,,,.ndpi,5,1,1
+Utah_16,170009127+001003001+3.ndpi,170009127+001003001+3,Non-responder,0,pT4aN1,,,,,.ndpi,5,1,1
+Utah_17,170013209+001003001+7.ndpi,170013209+001003001+7,Responder,1,pTisN0,,,,,.ndpi,5,1,1
+Utah_18,170016544+001002001+3.ndpi,170016544+001002001+3,Non-responder,0,ypT1Nx,,,,,.ndpi,5,1,1
+Utah_19,170027882+002003001+4.ndpi,170027882+002003001+4,Responder,1,ypTisN0,,,,,.ndpi,5,1,1
+Utah_2,130006393 4C1.ndpi,130006393 4C1,Responder,1,ypT0N0,,,,,.ndpi,5,1,1
+Utah_20,180007296+001002001+8.ndpi,180007296+001002001+8,Non-responder,0,ypT4N2 bladder and pT2N0 prostate,,,,,.ndpi,5,1,1
+Utah_21,180012818+002002001+1.ndpi,180012818+002002001+1,Responder,1,ypT0N0,,,,,.ndpi,5,1,1
+Utah_22,180014049+001002001+4.ndpi,180014049+001002001+4,Non-responder,0,ypT3N0,,,,,.ndpi,5,1,1
+Utah_23,180017896+001004001+9.ndpi,180017896+001004001+9,Non-responder,0,ypT3aN0,,,,,.ndpi,5,1,1
+Utah_24,180019707+001002001+8.ndpi,180019707+001002001+8,Responder,1,ypT0N0,,,,,.ndpi,5,1,1
+Utah_25,180021054+003001001+9.ndpi,180021054+003001001+9,Non-responder,0,ypT4bN2,,,,,.ndpi,5,1,1
+Utah_26,180024343+001001001+7.ndpi,180024343+001001001+7,Responder,1,ypT0N0,,,,,.ndpi,5,1,1
+Utah_27,180029572+001004001+5.ndpi,180029572+001004001+5,Non-responder,0,yPT3aN3 (small amt 1.7mm),,,,,.ndpi,5,1,1
+Utah_28,180030271+001008001+3.ndpi,180030271+001008001+3,Non-responder,0,yPt2bN1 (small amt 0.5mm),,,,,.ndpi,5,1,1
+Utah_29,190003020+001015001+2.ndpi,190003020+001015001+2,Responder,1,ypT0N0,,,,,.ndpi,5,1,1
+Utah_3,140005258+001003001+5.ndpi,140005258+001003001+5,Non-responder,0,Residual ca and prostate cancer,,,,,.ndpi,5,1,1
+Utah_30,190005931+001001001+4.ndpi,190005931+001001001+4,Responder,1,ypT0N0,,,,,.ndpi,5,1,1
+Utah_31,190009835+002001001+6.ndpi,190009835+002001001+6,Non-responder,0,ypT3bN2,,,,,.ndpi,5,1,1
+Utah_32,190012682+001001001+3.ndpi,190012682+001001001+3,Non-responder,0,ypT3aN1,,,,,.ndpi,5,1,1
+Utah_33,190016886+001001001+3.ndpi,190016886+001001001+3,Responder,1,ypT0N0,,,,,.ndpi,5,1,1
+Utah_34,190023489+001002001+5.ndpi,190023489+001002001+5,Non-responder,0,ypT4aN2,,,,,.ndpi,5,1,1
+Utah_35,190027448+006003001+0.ndpi,190027448+006003001+0,Responder,1,ypT0N0,,,,,.ndpi,5,1,1
+Utah_36,200003259 3B1.ndpi,200003259 3B1,Responder,1,ypT0N0,,,,,.ndpi,5,1,1
+Utah_37,200024166+002003001+8.ndpi,200024166+002003001+8,Non-responder,0,ypT3aN2,,,,,.ndpi,5,1,1
+Utah_38,210003281+001004001+2.ndpi,210003281+001004001+2,Non-responder,0,Residual MIBC ,,,,,.ndpi,5,1,1
+Utah_39,210010699+001004001+1.ndpi,210010699+001004001+1,Non-responder,0,ypT3aN0,,,,,.ndpi,5,1,1
+Utah_4,140017491+001001001+5.ndpi,140017491+001001001+5,Non-responder,0,pT2N0,,,,,.ndpi,5,1,1
+Utah_40,210011729+002003001+6.ndpi,210011729+002003001+6,Responder,1,ypT1isN0,,,,,.ndpi,5,1,1
+Utah_41,210018287+001007001+7.ndpi,210018287+001007001+7,Non-responder,0,ypT3bN0,,,,,.ndpi,5,1,1
+Utah_42,210021765+001016001+2.ndpi,210021765+001016001+2,Responder,1,ypT0N0,,,,,.ndpi,5,1,1
+Utah_43,210027495+002001001+1.ndpi,210027495+002001001+1,Non-responder,0,ypT3aN0,,,,,.ndpi,5,1,1
+Utah_44,210031382+001002001+1.ndpi,210031382+001002001+1,Non-responder,0,ypT4aN0,,,,,.ndpi,5,1,1
+Utah_5,140020200+002001001+2.ndpi,140020200+002001001+2,Non-responder,0,pT4aN1,,,,,.ndpi,5,1,1
+Utah_6,140022394+00100300+5.ndpi,140022394+00100300+5,Responder,1,ypT0N0,,,,,.ndpi,5,1,1
+Utah_7,140025373+001001001+7.ndpi,140025373+001001001+7,Responder,1,yPTisN0,,,,,.ndpi,5,1,1
+Utah_8,150005210+001002001+7.ndpi,150005210+001002001+7,Non-responder,0,"pT4aN2, also 1.5mm GG1 prostate cancer",,,,,.ndpi,5,1,1
+Utah_9,150006246+001001001+8.ndpi,150006246+001001001+8,Non-responder,0,yPT4aN0,,,,,.ndpi,5,1,1
+EIPM77-001,f87658fc-fb25-4e8d-8d33-abfec4c16e9d.svs,f87658fc-fb25-4e8d-8d33-abfec4c16e9d,Responder,1,,,,,,.svs,6,1,1
+EIPM77-002,b90c40e0-f6b9-4847-85f7-7f86add694eb.svs,b90c40e0-f6b9-4847-85f7-7f86add694eb,Responder,1,,,,,,.svs,6,1,1
+EIPM77-003,8801fa0f-7cf9-4cae-a668-3d59ef963170.svs,8801fa0f-7cf9-4cae-a668-3d59ef963170,Responder,1,,,,,,.svs,6,1,1
+EIPM77-004,bef3c30b-383b-42d4-83af-07770933dc7d.svs,bef3c30b-383b-42d4-83af-07770933dc7d,Responder,1,,,,,,.svs,6,1,1
+EIPM77-005,902735f3-2de7-40a8-8983-29643c1aa538.svs,902735f3-2de7-40a8-8983-29643c1aa538,Responder,1,,,,,,.svs,6,1,1
+EIPM77-006,8f7d4eba-29dc-42a4-b976-f3e131ada0e5.svs,8f7d4eba-29dc-42a4-b976-f3e131ada0e5,Responder,1,,,,,,.svs,6,1,1
+EIPM77-007,c5c32df2-441a-4de3-adf5-8acc2a56fdce.svs,c5c32df2-441a-4de3-adf5-8acc2a56fdce,Responder,1,,,,,,.svs,6,1,1
+EIPM77-008,4b5942d4-cf09-4050-a158-6fe1c4fb298c.svs,4b5942d4-cf09-4050-a158-6fe1c4fb298c,Responder,1,,,,,,.svs,6,1,1
+EIPM77-009,30adba7c-e953-4b6f-bc5c-dcf465ce925d.svs,30adba7c-e953-4b6f-bc5c-dcf465ce925d,Responder,1,,,,,,.svs,6,1,1
+EIPM77-010,8d20828e-1cde-49ab-a4e1-a82170ad36c2.svs,8d20828e-1cde-49ab-a4e1-a82170ad36c2,Responder,1,,,,,,.svs,6,1,1
+EIPM77-011,038e676b-2558-4904-a68d-13965bfcb936.svs,038e676b-2558-4904-a68d-13965bfcb936,Responder,1,,,,,,.svs,6,1,1
+EIPM77-012,8c5258ac-df90-4f3a-900c-4ce49c042bf4.svs,8c5258ac-df90-4f3a-900c-4ce49c042bf4,Responder,1,,,,,,.svs,6,1,1
+EIPM77-013,07196f18-bad4-4f05-b031-9c2f119eb4d3.svs,07196f18-bad4-4f05-b031-9c2f119eb4d3,Responder,1,,,,,,.svs,6,1,1
+EIPM77-014,20155536-75a2-4740-81ca-786a6c783b6d.svs,20155536-75a2-4740-81ca-786a6c783b6d,Responder,1,,,,,,.svs,6,1,2
+EIPM77-014,e7655a5d-8448-477c-9cb1-7b50be5d94ff.svs,e7655a5d-8448-477c-9cb1-7b50be5d94ff,Responder,1,,,,,,.svs,6,0,2
+EIPM77-015,45eed176-a453-457d-a8fb-295f5c9659ad.svs,45eed176-a453-457d-a8fb-295f5c9659ad,Responder,1,,,,,,.svs,6,1,1
+EIPM77-016,c0180272-e801-4041-8683-e30e15257678.svs,c0180272-e801-4041-8683-e30e15257678,Responder,1,,,,,,.svs,6,1,1
+EIPM77-017,fb62b46f-6e35-44b1-bf78-b8d2a84fe7b2.svs,fb62b46f-6e35-44b1-bf78-b8d2a84fe7b2,Responder,1,,,,,,.svs,6,1,1
+EIPM77-018,1291c584-5b82-4b65-b2b6-eb5bf13d4ecc.svs,1291c584-5b82-4b65-b2b6-eb5bf13d4ecc,Responder,1,,,,,,.svs,6,1,1
+EIPM77-019,96ba3353-d846-42cb-96b2-7f141a9b004d.svs,96ba3353-d846-42cb-96b2-7f141a9b004d,Responder,1,,,,,,.svs,6,1,1
+EIPM77-020,0090efd2-ecd5-4cb6-973b-5875a28c3946.svs,0090efd2-ecd5-4cb6-973b-5875a28c3946,Responder,1,,,,,,.svs,6,1,1
+EIPM77-021,51fb01f1-2d1a-444c-b072-fdc7d0ff352a.svs,51fb01f1-2d1a-444c-b072-fdc7d0ff352a,Responder,1,,,,,,.svs,6,1,1
+EIPM77-022,bf497664-e857-49a5-90e1-eb482ada2298.svs,bf497664-e857-49a5-90e1-eb482ada2298,Responder,1,,,,,,.svs,6,0,3
+EIPM77-022,9eeb329a-238d-4d79-8f2d-01c7ba237612.svs,9eeb329a-238d-4d79-8f2d-01c7ba237612,Responder,1,,,,,,.svs,6,1,3
+EIPM77-022,43682fc9-4d90-4604-acd3-8b3392bed306.svs,43682fc9-4d90-4604-acd3-8b3392bed306,Responder,1,,,,,,.svs,6,0,3
+EIPM77-023,1e79f5a5-9d7e-4d60-94d0-cca766dffec4.svs,1e79f5a5-9d7e-4d60-94d0-cca766dffec4,Responder,1,,,,,,.svs,6,0,3
+EIPM77-023,8f02df3f-9fd3-4035-b23a-585519bf2c64.svs,8f02df3f-9fd3-4035-b23a-585519bf2c64,Responder,1,,,,,,.svs,6,0,3
+EIPM77-023,3a3739b9-d7c4-4123-8037-e2cd5cb48a49.svs,3a3739b9-d7c4-4123-8037-e2cd5cb48a49,Responder,1,,,,,,.svs,6,1,3
+EIPM77-024,9d79b49e-3098-46f9-b260-8c76454ae13b.svs,9d79b49e-3098-46f9-b260-8c76454ae13b,Responder,1,,,,,,.svs,6,0,8
+EIPM77-024,980208e3-7281-4615-9943-53482ac733e9.svs,980208e3-7281-4615-9943-53482ac733e9,Responder,1,,,,,,.svs,6,0,8
+EIPM77-024,559ddcbd-08df-4920-bf96-bbd7ba198f46.svs,559ddcbd-08df-4920-bf96-bbd7ba198f46,Responder,1,,,,,,.svs,6,0,8
+EIPM77-024,7ec0dfcf-07b8-48d2-9527-e46e81edee95.svs,7ec0dfcf-07b8-48d2-9527-e46e81edee95,Responder,1,,,,,,.svs,6,0,8
+EIPM77-024,669b3d3f-166f-4f18-9807-2d175c5d4100.svs,669b3d3f-166f-4f18-9807-2d175c5d4100,Responder,1,,,,,,.svs,6,0,8
+EIPM77-024,0a4c4f92-550f-43aa-9b1b-2880159761b3.svs,0a4c4f92-550f-43aa-9b1b-2880159761b3,Responder,1,,,,,,.svs,6,1,8
+EIPM77-024,2c6bb736-5df1-4207-9bef-40174ac772e3.svs,2c6bb736-5df1-4207-9bef-40174ac772e3,Responder,1,,,,,,.svs,6,0,8
+EIPM77-024,957a045f-48ee-45b2-83dd-8df2ba66bf18.svs,957a045f-48ee-45b2-83dd-8df2ba66bf18,Responder,1,,,,,,.svs,6,0,8
+EIPM77-025,be32ab03-df53-4cd7-9440-034c3cfe9633.svs,be32ab03-df53-4cd7-9440-034c3cfe9633,Responder,1,,,,,,.svs,6,1,1
+EIPM77-026,998652b2-a59b-42cb-a423-cfc715341dac.svs,998652b2-a59b-42cb-a423-cfc715341dac,Responder,1,,,,,,.svs,6,0,3
+EIPM77-026,64a106ac-7df1-4d82-ba26-db914e896911.svs,64a106ac-7df1-4d82-ba26-db914e896911,Responder,1,,,,,,.svs,6,0,3
+EIPM77-026,6a469133-cd73-4bf2-a75a-73b303bbb392.svs,6a469133-cd73-4bf2-a75a-73b303bbb392,Responder,1,,,,,,.svs,6,1,3
+EIPM77-027,8bf5e56d-be1e-4899-832c-0ecb60d71d63.svs,8bf5e56d-be1e-4899-832c-0ecb60d71d63,Responder,1,,,,,,.svs,6,1,2
+EIPM77-027,acf06040-f003-466f-a61b-f74e3382cf98.svs,acf06040-f003-466f-a61b-f74e3382cf98,Responder,1,,,,,,.svs,6,0,2
+EIPM77-028,202d20f2-2d66-4055-809b-0b4efb4f670f.svs,202d20f2-2d66-4055-809b-0b4efb4f670f,Responder,1,,,,,,.svs,6,0,2
+EIPM77-028,e6b69e45-9b00-44e4-ba03-b946ceb08d9f.svs,e6b69e45-9b00-44e4-ba03-b946ceb08d9f,Responder,1,,,,,,.svs,6,1,2
+EIPM77-029,2ea23839-dc94-45ee-ac8d-09350526465e.svs,2ea23839-dc94-45ee-ac8d-09350526465e,Responder,1,,,,,,.svs,6,1,1
+EIPM77-030,0b337dc9-cf84-43c5-87fb-51d9cf1aa93d.svs,0b337dc9-cf84-43c5-87fb-51d9cf1aa93d,Responder,1,,,,,,.svs,6,0,2
+EIPM77-030,6dc337c6-d8c7-467f-9392-f0004e37a340.svs,6dc337c6-d8c7-467f-9392-f0004e37a340,Responder,1,,,,,,.svs,6,1,2
+EIPM77-031,635c3d77-64d9-424c-8419-71e30bc32ca4.svs,635c3d77-64d9-424c-8419-71e30bc32ca4,Responder,1,,,,,,.svs,6,1,1
+EIPM77-032,d44b2382-8f3d-45c4-aeaa-e6cf816558a2.svs,d44b2382-8f3d-45c4-aeaa-e6cf816558a2,Responder,1,,,,,,.svs,6,0,2
+EIPM77-032,0bd60cae-8e4e-46a0-9781-c208e989ccb9.svs,0bd60cae-8e4e-46a0-9781-c208e989ccb9,Responder,1,,,,,,.svs,6,1,2
+EIPM77-033,7665a57e-3e74-42bb-be78-91c4a3c59cce.svs,7665a57e-3e74-42bb-be78-91c4a3c59cce,Responder,1,,,,,,.svs,6,1,2
+EIPM77-033,a25fdf3d-c411-4363-9674-de35206d3de4.svs,a25fdf3d-c411-4363-9674-de35206d3de4,Responder,1,,,,,,.svs,6,0,2
+EIPM77-034,1c8f2ec3-60d7-4574-92ac-ad6379af94fa.svs,1c8f2ec3-60d7-4574-92ac-ad6379af94fa,Responder,1,,,,,,.svs,6,1,1
+EIPM77-035,c6e5d246-31dd-4be6-8d95-dc87e99504a1.svs,c6e5d246-31dd-4be6-8d95-dc87e99504a1,Responder,1,,,,,,.svs,6,0,3
+EIPM77-035,a6fac27d-ac79-4de1-801c-82c5ac32f5f1.svs,a6fac27d-ac79-4de1-801c-82c5ac32f5f1,Responder,1,,,,,,.svs,6,0,3
+EIPM77-035,b02fd550-9d9a-400c-be3c-b1c11234ea08.svs,b02fd550-9d9a-400c-be3c-b1c11234ea08,Responder,1,,,,,,.svs,6,1,3
+EIPM77-036,ffdb7a89-a2e0-46b0-aa8b-4352c7d69a22.svs,ffdb7a89-a2e0-46b0-aa8b-4352c7d69a22,Responder,1,,,,,,.svs,6,0,15
+EIPM77-036,5d399b7d-df85-4557-bf63-30cff79414c3.svs,5d399b7d-df85-4557-bf63-30cff79414c3,Responder,1,,,,,,.svs,6,0,15
+EIPM77-036,2f75b6b8-4dea-4b28-890c-751f11ee4dda.svs,2f75b6b8-4dea-4b28-890c-751f11ee4dda,Responder,1,,,,,,.svs,6,0,15
+EIPM77-036,3b57136b-0a5a-43be-9ad0-e5c2db593dda.svs,3b57136b-0a5a-43be-9ad0-e5c2db593dda,Responder,1,,,,,,.svs,6,0,15
+EIPM77-036,8efd17e0-1f83-4b90-bec9-3aeb99169e00.svs,8efd17e0-1f83-4b90-bec9-3aeb99169e00,Responder,1,,,,,,.svs,6,0,15
+EIPM77-036,5664461d-c0aa-4cbd-b1b7-0db70566ff3c.svs,5664461d-c0aa-4cbd-b1b7-0db70566ff3c,Responder,1,,,,,,.svs,6,0,15
+EIPM77-036,56da1eea-b9c4-4c88-b24c-51b002b275f0.svs,56da1eea-b9c4-4c88-b24c-51b002b275f0,Responder,1,,,,,,.svs,6,0,15
+EIPM77-036,23d6b883-9566-402c-950c-eb06195e372d.svs,23d6b883-9566-402c-950c-eb06195e372d,Responder,1,,,,,,.svs,6,0,15
+EIPM77-036,26bb5906-b26c-45b8-b684-9e2c66e03aed.svs,26bb5906-b26c-45b8-b684-9e2c66e03aed,Responder,1,,,,,,.svs,6,0,15
+EIPM77-036,699b98bc-57c9-4b19-ad0c-05f88cc0a1fb.svs,699b98bc-57c9-4b19-ad0c-05f88cc0a1fb,Responder,1,,,,,,.svs,6,1,15
+EIPM77-036,86af9df5-fd6d-4627-ab3c-2194e6220a70.svs,86af9df5-fd6d-4627-ab3c-2194e6220a70,Responder,1,,,,,,.svs,6,0,15
+EIPM77-036,efde81e8-c38c-4a5d-a291-3a7f0c9a4c16.svs,efde81e8-c38c-4a5d-a291-3a7f0c9a4c16,Responder,1,,,,,,.svs,6,0,15
+EIPM77-036,d3046753-0514-43f7-986e-52fdcd5d1f41.svs,d3046753-0514-43f7-986e-52fdcd5d1f41,Responder,1,,,,,,.svs,6,0,15
+EIPM77-036,ddf4af9a-a7b7-4e82-bd2c-504d630efb0b.svs,ddf4af9a-a7b7-4e82-bd2c-504d630efb0b,Responder,1,,,,,,.svs,6,0,15
+EIPM77-036,f22f6cfe-584b-45bb-a5d5-fd2c1a7c24eb.svs,f22f6cfe-584b-45bb-a5d5-fd2c1a7c24eb,Responder,1,,,,,,.svs,6,0,15
+EIPM77-037,96aff60a-0e24-4e3e-b68e-dabfba84dbfb.svs,96aff60a-0e24-4e3e-b68e-dabfba84dbfb,Responder,1,,,,,,.svs,6,1,4
+EIPM77-037,3f2bc335-1911-42df-bd4b-2b878663712c.svs,3f2bc335-1911-42df-bd4b-2b878663712c,Responder,1,,,,,,.svs,6,0,4
+EIPM77-037,bc606421-4f5f-44fd-8b48-810c7b487a4e.svs,bc606421-4f5f-44fd-8b48-810c7b487a4e,Responder,1,,,,,,.svs,6,0,4
+EIPM77-037,5a9f0a07-7994-4f1c-835e-cd1fcf976f02.svs,5a9f0a07-7994-4f1c-835e-cd1fcf976f02,Responder,1,,,,,,.svs,6,0,4
+EIPM77-038,4b1e4100-8ed5-4983-8470-a710f671c4b8.svs,4b1e4100-8ed5-4983-8470-a710f671c4b8,Responder,1,,,,,,.svs,6,0,5
+EIPM77-038,8205f24c-6c4f-4dee-bb27-1096603a6e79.svs,8205f24c-6c4f-4dee-bb27-1096603a6e79,Responder,1,,,,,,.svs,6,0,5
+EIPM77-038,7ec02ce0-ed59-435e-a4b8-3a6187c09d6e.svs,7ec02ce0-ed59-435e-a4b8-3a6187c09d6e,Responder,1,,,,,,.svs,6,0,5
+EIPM77-038,736bf0e0-c357-4b98-a01f-b1f8b9965990.svs,736bf0e0-c357-4b98-a01f-b1f8b9965990,Responder,1,,,,,,.svs,6,0,5
+EIPM77-038,ee17987f-fc13-42ed-a0d1-d81d980bc2c7.svs,ee17987f-fc13-42ed-a0d1-d81d980bc2c7,Responder,1,,,,,,.svs,6,1,5
+EIPM77-039,4820cfa2-1241-44e7-8c7e-fb62aa875e20.svs,4820cfa2-1241-44e7-8c7e-fb62aa875e20,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,7f3556b3-0a56-4d5b-b26b-5c17b1340c2a.svs,7f3556b3-0a56-4d5b-b26b-5c17b1340c2a,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,692010d9-2810-4378-b114-9f12444fb0e3.svs,692010d9-2810-4378-b114-9f12444fb0e3,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,cdf96b29-5318-466f-8c48-4d7285b0d5f6.svs,cdf96b29-5318-466f-8c48-4d7285b0d5f6,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,7e52671d-01e2-41cb-a8ff-6838a6a23139.svs,7e52671d-01e2-41cb-a8ff-6838a6a23139,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,698cd792-89ff-43b8-b3df-9f96a79f0706.svs,698cd792-89ff-43b8-b3df-9f96a79f0706,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,98fe973e-7847-4666-ab4b-d3cd7d73fa03.svs,98fe973e-7847-4666-ab4b-d3cd7d73fa03,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,92e492b9-763a-4d48-8e30-15a1c066f06d.svs,92e492b9-763a-4d48-8e30-15a1c066f06d,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,9bccbabf-f263-4be9-8d5b-1117ba9cd597.svs,9bccbabf-f263-4be9-8d5b-1117ba9cd597,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,cdd79ff4-a28c-4ae4-952b-25f334141f4a.svs,cdd79ff4-a28c-4ae4-952b-25f334141f4a,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,a61d8191-ffe7-4905-bd3a-dbd7a22339c2.svs,a61d8191-ffe7-4905-bd3a-dbd7a22339c2,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,0741d72e-b3a8-425f-83dd-c92067e35b11.svs,0741d72e-b3a8-425f-83dd-c92067e35b11,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,0c41732f-d812-4876-b43d-15bcb5cadb25.svs,0c41732f-d812-4876-b43d-15bcb5cadb25,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,de48ad18-fd0c-4c2a-b7b0-826d81c50944.svs,de48ad18-fd0c-4c2a-b7b0-826d81c50944,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,458dbfc1-fc0a-440a-88d1-5eec950f1b00.svs,458dbfc1-fc0a-440a-88d1-5eec950f1b00,Responder,1,,,,,,.svs,6,1,28
+EIPM77-039,ff017a24-13f5-4a5f-9562-cdd6b4777350.svs,ff017a24-13f5-4a5f-9562-cdd6b4777350,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,670890a5-70a4-41cf-b4d4-5969b5144438.svs,670890a5-70a4-41cf-b4d4-5969b5144438,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,9a1e91ff-f03b-441e-81bf-917983fa3560.svs,9a1e91ff-f03b-441e-81bf-917983fa3560,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,a44d127f-bbd3-40c5-a5d3-2bf41012b850.svs,a44d127f-bbd3-40c5-a5d3-2bf41012b850,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,1a931f31-c2d0-4076-a73a-6cbce9cfe087.svs,1a931f31-c2d0-4076-a73a-6cbce9cfe087,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,9b06f233-9e6b-4f95-8cbf-22b7ad0f5b21.svs,9b06f233-9e6b-4f95-8cbf-22b7ad0f5b21,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,51abf1c8-2424-4c1b-a180-310e15f56fdb.svs,51abf1c8-2424-4c1b-a180-310e15f56fdb,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,12a29659-7832-452d-aa4f-617ee1a009c4.svs,12a29659-7832-452d-aa4f-617ee1a009c4,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,133f16fb-b877-4c43-9918-20beeb4c30fd.svs,133f16fb-b877-4c43-9918-20beeb4c30fd,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,3b992b74-8cb4-49f7-939c-8866010cfeba.svs,3b992b74-8cb4-49f7-939c-8866010cfeba,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,a28cae05-4a9d-4143-84d6-d98ad4a8fcbc.svs,a28cae05-4a9d-4143-84d6-d98ad4a8fcbc,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,8d5d6009-622b-47bf-9694-1d3f563d626c.svs,8d5d6009-622b-47bf-9694-1d3f563d626c,Responder,1,,,,,,.svs,6,0,28
+EIPM77-039,60f167dc-74a3-483e-a133-8c829361a27f.svs,60f167dc-74a3-483e-a133-8c829361a27f,Responder,1,,,,,,.svs,6,0,28
+EIPM77-040,50e60940-6dc4-45d3-b88c-28888205ea31.svs,50e60940-6dc4-45d3-b88c-28888205ea31,Responder,1,,,,,,.svs,6,1,3
+EIPM77-040,5ead74a9-02f4-4879-bccd-44d4c040cadb.svs,5ead74a9-02f4-4879-bccd-44d4c040cadb,Responder,1,,,,,,.svs,6,0,3
+EIPM77-040,fdcde998-da62-480f-995f-6082a90ce5bd.svs,fdcde998-da62-480f-995f-6082a90ce5bd,Responder,1,,,,,,.svs,6,0,3
+EIPM77-041,d01ce852-bdad-4d68-bec2-5e2bd89926a6.svs,d01ce852-bdad-4d68-bec2-5e2bd89926a6,Responder,1,,,,,,.svs,6,1,4
+EIPM77-041,b0d472b0-ba20-4a5e-b514-2a8f5dec4d68.svs,b0d472b0-ba20-4a5e-b514-2a8f5dec4d68,Responder,1,,,,,,.svs,6,0,4
+EIPM77-041,bd757fd1-2501-48e9-b16d-6bd7f18679f8.svs,bd757fd1-2501-48e9-b16d-6bd7f18679f8,Responder,1,,,,,,.svs,6,0,4
+EIPM77-041,81cf99f1-5c4a-493d-8ca8-8927c9c96dd7.svs,81cf99f1-5c4a-493d-8ca8-8927c9c96dd7,Responder,1,,,,,,.svs,6,0,4
+EIPM77-042,86a50c6f-69d9-4c8f-a933-ec206c2a4a3c.svs,86a50c6f-69d9-4c8f-a933-ec206c2a4a3c,Responder,1,,,,,,.svs,6,1,1
+EIPM77-043,e038dc8c-c8c4-4039-9dba-2f2bbb2d0375.svs,e038dc8c-c8c4-4039-9dba-2f2bbb2d0375,Responder,1,,,,,,.svs,6,1,1
+EIPM77-044,5cb517cd-946a-44e1-8629-75d277fb1ca6.svs,5cb517cd-946a-44e1-8629-75d277fb1ca6,Responder,1,,,,,,.svs,6,1,1
+EIPM77-045,ad8061d2-72f9-43f6-9a21-825dca6cac01.svs,ad8061d2-72f9-43f6-9a21-825dca6cac01,Responder,1,,,,,,.svs,6,1,1
+EIPM77-046,55e0e4f7-62bf-4038-9a0c-90dea6b23927.svs,55e0e4f7-62bf-4038-9a0c-90dea6b23927,Responder,1,,,,,,.svs,6,1,1
+EIPM77-047,f9ce7b65-cde6-4b8c-877a-e4395487dfde.svs,f9ce7b65-cde6-4b8c-877a-e4395487dfde,Responder,1,,,,,,.svs,6,1,1
+EIPM77-048,4d9953d1-6929-42f7-a6c9-2be0345812cf.svs,4d9953d1-6929-42f7-a6c9-2be0345812cf,Responder,1,,,,,,.svs,6,0,3
+EIPM77-048,7f131300-7499-4312-96ab-34c2c11b3545.svs,7f131300-7499-4312-96ab-34c2c11b3545,Responder,1,,,,,,.svs,6,0,3
+EIPM77-048,ecde0c05-4210-4f7e-ba18-04a35fa99ecb.svs,ecde0c05-4210-4f7e-ba18-04a35fa99ecb,Responder,1,,,,,,.svs,6,1,3
+EIPM77-049,cc550e14-a26a-41be-b1dc-9e5dca0e70cb.svs,cc550e14-a26a-41be-b1dc-9e5dca0e70cb,Responder,1,,,,,,.svs,6,1,1
+EIPM77-050,8f518e98-2e86-45a6-983d-7b77e748f4d5.svs,8f518e98-2e86-45a6-983d-7b77e748f4d5,Responder,1,,,,,,.svs,6,0,5
+EIPM77-050,71d29519-38bd-445d-9e18-f057ee25ad12.svs,71d29519-38bd-445d-9e18-f057ee25ad12,Responder,1,,,,,,.svs,6,0,5
+EIPM77-050,cadf5098-4ad4-43fa-914b-0b631cfba65d.svs,cadf5098-4ad4-43fa-914b-0b631cfba65d,Responder,1,,,,,,.svs,6,0,5
+EIPM77-050,e35aba4b-7b7a-4e0c-959c-9f8308748949.svs,e35aba4b-7b7a-4e0c-959c-9f8308748949,Responder,1,,,,,,.svs,6,0,5
+EIPM77-050,62a59fb0-b418-432d-b6a7-d933f725c86a.svs,62a59fb0-b418-432d-b6a7-d933f725c86a,Responder,1,,,,,,.svs,6,1,5
+EIPM77-051,89e1aa9f-fabc-41a2-9c1f-4fa35913c926.svs,89e1aa9f-fabc-41a2-9c1f-4fa35913c926,Responder,1,,,,,,.svs,6,0,4
+EIPM77-051,3fd191d0-1643-4a60-8d1b-8576fcba9219.svs,3fd191d0-1643-4a60-8d1b-8576fcba9219,Responder,1,,,,,,.svs,6,1,4
+EIPM77-051,0298c226-dd2f-46d6-b8a6-9ea1ac0632b4.svs,0298c226-dd2f-46d6-b8a6-9ea1ac0632b4,Responder,1,,,,,,.svs,6,0,4
+EIPM77-051,22447bc7-6743-4d65-a9b3-64f4a49a96af.svs,22447bc7-6743-4d65-a9b3-64f4a49a96af,Responder,1,,,,,,.svs,6,0,4
+EIPM77-052,b52ffa1d-4e66-4e8c-92d3-1fede95e623d.svs,b52ffa1d-4e66-4e8c-92d3-1fede95e623d,Responder,1,,,,,,.svs,6,1,1
+EIPM77-053,fbb6ebc6-b5d6-486f-a9c2-36ea5cbeca54.svs,fbb6ebc6-b5d6-486f-a9c2-36ea5cbeca54,Responder,1,,,,,,.svs,6,0,13
+EIPM77-053,271a13f9-6a35-4f21-b6a4-dcf8464be8cb.svs,271a13f9-6a35-4f21-b6a4-dcf8464be8cb,Responder,1,,,,,,.svs,6,0,13
+EIPM77-053,2a8b7f5c-2e7c-432d-b97e-e463760d1143.svs,2a8b7f5c-2e7c-432d-b97e-e463760d1143,Responder,1,,,,,,.svs,6,0,13
+EIPM77-053,8e2d1ef8-b3c2-45d8-a976-2b086e427f20.svs,8e2d1ef8-b3c2-45d8-a976-2b086e427f20,Responder,1,,,,,,.svs,6,0,13
+EIPM77-053,020adef0-f4b5-42c9-a377-99e9a6278c21.svs,020adef0-f4b5-42c9-a377-99e9a6278c21,Responder,1,,,,,,.svs,6,0,13
+EIPM77-053,30e8d010-fd40-4f86-94ab-116b2fd42114.svs,30e8d010-fd40-4f86-94ab-116b2fd42114,Responder,1,,,,,,.svs,6,0,13
+EIPM77-053,ba0f80a4-4260-410e-8b5d-7c1917735f32.svs,ba0f80a4-4260-410e-8b5d-7c1917735f32,Responder,1,,,,,,.svs,6,0,13
+EIPM77-053,7ad76191-ea1c-46fd-9ae6-351282c5726e.svs,7ad76191-ea1c-46fd-9ae6-351282c5726e,Responder,1,,,,,,.svs,6,0,13
+EIPM77-053,39e4465b-8a29-453e-989c-cc6bad2346fb.svs,39e4465b-8a29-453e-989c-cc6bad2346fb,Responder,1,,,,,,.svs,6,0,13
+EIPM77-053,5a7d7c28-157c-40a6-9579-ee16e60bcb92.svs,5a7d7c28-157c-40a6-9579-ee16e60bcb92,Responder,1,,,,,,.svs,6,0,13
+EIPM77-053,2506e7d9-838d-4739-b155-0acd447337d4.svs,2506e7d9-838d-4739-b155-0acd447337d4,Responder,1,,,,,,.svs,6,0,13
+EIPM77-053,a55a5345-ae7b-4a69-bf44-47315bed3bc5.svs,a55a5345-ae7b-4a69-bf44-47315bed3bc5,Responder,1,,,,,,.svs,6,0,13
+EIPM77-053,56c4bd0e-d204-40df-b177-e3b950356f12.svs,56c4bd0e-d204-40df-b177-e3b950356f12,Responder,1,,,,,,.svs,6,1,13
+EIPM77-054,b5d8c455-c313-4908-b20c-e9f1952065c7.svs,b5d8c455-c313-4908-b20c-e9f1952065c7,Responder,1,,,,,,.svs,6,1,1
+EIPM77-055,11d3e15f-c8a5-4c53-a618-65fa76dfed24.svs,11d3e15f-c8a5-4c53-a618-65fa76dfed24,Responder,1,,,,,,.svs,6,0,5
+EIPM77-055,97cdd6b0-1e3d-4398-925c-68886c07f63a.svs,97cdd6b0-1e3d-4398-925c-68886c07f63a,Responder,1,,,,,,.svs,6,1,5
+EIPM77-055,3d6d0f0d-ca6e-404c-88e7-cdd3a7aafefc.svs,3d6d0f0d-ca6e-404c-88e7-cdd3a7aafefc,Responder,1,,,,,,.svs,6,0,5
+EIPM77-055,69757129-6b76-4d72-84ce-f91c39445bcf.svs,69757129-6b76-4d72-84ce-f91c39445bcf,Responder,1,,,,,,.svs,6,0,5
+EIPM77-055,71bab1df-d5ea-41f9-82de-30a1a428b7d7.svs,71bab1df-d5ea-41f9-82de-30a1a428b7d7,Responder,1,,,,,,.svs,6,0,5
+EIPM77-056,01920cd6-6b97-476e-bca0-7ce1d7423975.svs,01920cd6-6b97-476e-bca0-7ce1d7423975,Responder,1,,,,,,.svs,6,1,1
+EIPM77-057,d9e6eecd-6d1f-442a-8352-7e09191c88e0.svs,d9e6eecd-6d1f-442a-8352-7e09191c88e0,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-058,99459e18-ddbd-4784-b1a5-1ff56c5eea04.svs,99459e18-ddbd-4784-b1a5-1ff56c5eea04,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-059,d361d6d7-164a-4b0a-a512-88735ca2c192.svs,d361d6d7-164a-4b0a-a512-88735ca2c192,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-060,2b332b95-2fcd-4c17-87cf-e04924459a16.svs,2b332b95-2fcd-4c17-87cf-e04924459a16,Non-Responder,0,,,,,,.svs,6,1,2
+EIPM77-060,9b219b64-cc0e-48c3-8c47-5fa48e70ae11.svs,9b219b64-cc0e-48c3-8c47-5fa48e70ae11,Non-Responder,0,,,,,,.svs,6,0,2
+EIPM77-061,9c0c01be-cbcc-4e26-b4b7-66ab2c7adbd2.svs,9c0c01be-cbcc-4e26-b4b7-66ab2c7adbd2,Non-Responder,0,,,,,,.svs,6,0,5
+EIPM77-061,49817fdc-16c3-4e8a-a42d-0a3d9deede38.svs,49817fdc-16c3-4e8a-a42d-0a3d9deede38,Non-Responder,0,,,,,,.svs,6,1,5
+EIPM77-061,e09a14ac-9a13-40b3-b381-7d7e6bf7d751.svs,e09a14ac-9a13-40b3-b381-7d7e6bf7d751,Non-Responder,0,,,,,,.svs,6,0,5
+EIPM77-061,7a425821-4786-4e73-81ab-c559cd120464.svs,7a425821-4786-4e73-81ab-c559cd120464,Non-Responder,0,,,,,,.svs,6,0,5
+EIPM77-061,52297c01-527d-494b-9046-a523004aa180.svs,52297c01-527d-494b-9046-a523004aa180,Non-Responder,0,,,,,,.svs,6,0,5
+EIPM77-062,b3d967c9-b3c7-43e5-ac2d-ce61da508f85.svs,b3d967c9-b3c7-43e5-ac2d-ce61da508f85,Non-Responder,0,,,,,,.svs,6,0,10
+EIPM77-062,1fbaabe5-0d5c-4427-ba19-e855b8f9a224.svs,1fbaabe5-0d5c-4427-ba19-e855b8f9a224,Non-Responder,0,,,,,,.svs,6,0,10
+EIPM77-062,f89dc5c6-142d-42fb-ad74-53a97a3a26fd.svs,f89dc5c6-142d-42fb-ad74-53a97a3a26fd,Non-Responder,0,,,,,,.svs,6,1,10
+EIPM77-062,02826bd9-3a42-4e2d-856f-a11c71993e98.svs,02826bd9-3a42-4e2d-856f-a11c71993e98,Non-Responder,0,,,,,,.svs,6,0,10
+EIPM77-062,93a25421-c32b-42d5-8ef8-a75151e74fe2.svs,93a25421-c32b-42d5-8ef8-a75151e74fe2,Non-Responder,0,,,,,,.svs,6,0,10
+EIPM77-062,1bdc920d-5e6f-49f7-a547-f20a9950f06e.svs,1bdc920d-5e6f-49f7-a547-f20a9950f06e,Non-Responder,0,,,,,,.svs,6,0,10
+EIPM77-062,14cfe451-9284-4c44-bd9d-cbd211cd5cab.svs,14cfe451-9284-4c44-bd9d-cbd211cd5cab,Non-Responder,0,,,,,,.svs,6,0,10
+EIPM77-062,a73ccad4-2bdc-428d-a3ef-d6dc3aa2200e.svs,a73ccad4-2bdc-428d-a3ef-d6dc3aa2200e,Non-Responder,0,,,,,,.svs,6,0,10
+EIPM77-062,0e880af1-40ea-4200-8022-9e699fe3f129.svs,0e880af1-40ea-4200-8022-9e699fe3f129,Non-Responder,0,,,,,,.svs,6,0,10
+EIPM77-062,d9311450-b089-4b83-8cbe-0bbe480be110.svs,d9311450-b089-4b83-8cbe-0bbe480be110,Non-Responder,0,,,,,,.svs,6,0,10
+EIPM77-063,19765367-06ea-4a09-b7a8-150cbde19951.svs,19765367-06ea-4a09-b7a8-150cbde19951,Non-Responder,0,,,,,,.svs,6,0,5
+EIPM77-063,67fa90aa-b18d-491d-bf84-d4aa80e3cc5e.svs,67fa90aa-b18d-491d-bf84-d4aa80e3cc5e,Non-Responder,0,,,,,,.svs,6,0,5
+EIPM77-063,ae69c2a7-bde2-4680-8ff7-c63819409e8c.svs,ae69c2a7-bde2-4680-8ff7-c63819409e8c,Non-Responder,0,,,,,,.svs,6,0,5
+EIPM77-063,e3e0a7cf-2d0f-4110-ba81-596fa9b130f6.svs,e3e0a7cf-2d0f-4110-ba81-596fa9b130f6,Non-Responder,0,,,,,,.svs,6,0,5
+EIPM77-063,9a6c891e-53a3-4754-9009-0abdb6480e31.svs,9a6c891e-53a3-4754-9009-0abdb6480e31,Non-Responder,0,,,,,,.svs,6,1,5
+EIPM77-064,4940a59a-1ae1-4515-8328-4d65d80e0195.svs,4940a59a-1ae1-4515-8328-4d65d80e0195,Non-Responder,0,,,,,,.svs,6,0,6
+EIPM77-064,fe465a7a-3b00-44b5-80ca-39e0d021b146.svs,fe465a7a-3b00-44b5-80ca-39e0d021b146,Non-Responder,0,,,,,,.svs,6,0,6
+EIPM77-064,dbfda0cc-f070-484f-85f9-ee171f9cae8f.svs,dbfda0cc-f070-484f-85f9-ee171f9cae8f,Non-Responder,0,,,,,,.svs,6,0,6
+EIPM77-064,af6784ce-cc9b-44db-9cbb-edfa59dc541b.svs,af6784ce-cc9b-44db-9cbb-edfa59dc541b,Non-Responder,0,,,,,,.svs,6,1,6
+EIPM77-064,78f09ca9-f5e1-41d8-a6bb-73c2d57721c9.svs,78f09ca9-f5e1-41d8-a6bb-73c2d57721c9,Non-Responder,0,,,,,,.svs,6,0,6
+EIPM77-064,76b53efa-3615-425d-bcad-c270493b34ab.svs,76b53efa-3615-425d-bcad-c270493b34ab,Non-Responder,0,,,,,,.svs,6,0,6
+EIPM77-065,a0a4d3c6-9280-489c-8bb8-9b8828fc9783.svs,a0a4d3c6-9280-489c-8bb8-9b8828fc9783,Non-Responder,0,,,,,,.svs,6,0,3
+EIPM77-065,99c99727-7183-401a-857e-9a7719c8fb69.svs,99c99727-7183-401a-857e-9a7719c8fb69,Non-Responder,0,,,,,,.svs,6,1,3
+EIPM77-065,57b38df9-2398-4141-bd68-ce0d9931cd16.svs,57b38df9-2398-4141-bd68-ce0d9931cd16,Non-Responder,0,,,,,,.svs,6,0,3
+EIPM77-066,c9a7d3de-a5d7-456d-a7ea-4f745c87e712.svs,c9a7d3de-a5d7-456d-a7ea-4f745c87e712,Non-Responder,0,,,,,,.svs,6,0,13
+EIPM77-066,29c918e0-4436-4541-a3e2-88956ed0f8e9.svs,29c918e0-4436-4541-a3e2-88956ed0f8e9,Non-Responder,0,,,,,,.svs,6,0,13
+EIPM77-066,33805526-31ec-4bbc-80f3-912dc3b53f69.svs,33805526-31ec-4bbc-80f3-912dc3b53f69,Non-Responder,0,,,,,,.svs,6,0,13
+EIPM77-066,6cbd36e8-0d01-4798-ba7a-1679e6a84d4f.svs,6cbd36e8-0d01-4798-ba7a-1679e6a84d4f,Non-Responder,0,,,,,,.svs,6,0,13
+EIPM77-066,b5ab7741-1abf-40c7-b9e8-9ed5a4f77cd5.svs,b5ab7741-1abf-40c7-b9e8-9ed5a4f77cd5,Non-Responder,0,,,,,,.svs,6,0,13
+EIPM77-066,8e07f438-bfbe-4baa-9e52-f0daedc8ca18.svs,8e07f438-bfbe-4baa-9e52-f0daedc8ca18,Non-Responder,0,,,,,,.svs,6,0,13
+EIPM77-066,2440029b-448b-4623-81dc-5d5d29379251.svs,2440029b-448b-4623-81dc-5d5d29379251,Non-Responder,0,,,,,,.svs,6,0,13
+EIPM77-066,ce514e6c-f2bb-4bee-b184-9a334adad28e.svs,ce514e6c-f2bb-4bee-b184-9a334adad28e,Non-Responder,0,,,,,,.svs,6,0,13
+EIPM77-066,9eb51491-66bf-42eb-933d-5f9867932c30.svs,9eb51491-66bf-42eb-933d-5f9867932c30,Non-Responder,0,,,,,,.svs,6,1,13
+EIPM77-066,9854cc51-2cf4-422f-ab8f-b6c08146f1e5.svs,9854cc51-2cf4-422f-ab8f-b6c08146f1e5,Non-Responder,0,,,,,,.svs,6,0,13
+EIPM77-066,8ed104d5-f6e0-4bc0-a069-c0b12d1cee7d.svs,8ed104d5-f6e0-4bc0-a069-c0b12d1cee7d,Non-Responder,0,,,,,,.svs,6,0,13
+EIPM77-066,76875d55-15ac-40e9-a0c8-cc6a6a4cc132.svs,76875d55-15ac-40e9-a0c8-cc6a6a4cc132,Non-Responder,0,,,,,,.svs,6,0,13
+EIPM77-066,6f128e4d-8a48-4d04-b8c4-7147fb2719f3.svs,6f128e4d-8a48-4d04-b8c4-7147fb2719f3,Non-Responder,0,,,,,,.svs,6,0,13
+EIPM77-067,65f395fc-b9e3-4d4e-a6ac-4f1546dcc960.svs,65f395fc-b9e3-4d4e-a6ac-4f1546dcc960,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-068,d683be46-67a9-42b4-ad1d-18f52ee49e84.svs,d683be46-67a9-42b4-ad1d-18f52ee49e84,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-069,e67b9971-89db-4aa0-91b3-fca29abc29cc.svs,e67b9971-89db-4aa0-91b3-fca29abc29cc,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-070,b271cee8-49d5-4963-abb9-907f75580057.svs,b271cee8-49d5-4963-abb9-907f75580057,Non-Responder,0,,,,,,.svs,6,0,3
+EIPM77-070,d012c958-2723-4f65-83c2-6147d82652bd.svs,d012c958-2723-4f65-83c2-6147d82652bd,Non-Responder,0,,,,,,.svs,6,1,3
+EIPM77-070,fe04f761-950d-4b55-b117-516237c0a257.svs,fe04f761-950d-4b55-b117-516237c0a257,Non-Responder,0,,,,,,.svs,6,0,3
+EIPM77-071,a8043304-50d3-4e2f-904c-0643af8423b3.svs,a8043304-50d3-4e2f-904c-0643af8423b3,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-072,a0871540-365f-42df-bf85-c0e046285ff7.svs,a0871540-365f-42df-bf85-c0e046285ff7,Non-Responder,0,,,,,,.svs,6,0,4
+EIPM77-072,ec90c4cb-7789-4af7-91dd-c12f463835cb.svs,ec90c4cb-7789-4af7-91dd-c12f463835cb,Non-Responder,0,,,,,,.svs,6,0,4
+EIPM77-072,dededb1c-acb2-4059-9bda-b7600b3785f1.svs,dededb1c-acb2-4059-9bda-b7600b3785f1,Non-Responder,0,,,,,,.svs,6,0,4
+EIPM77-072,9fbce8b6-e571-4600-8498-a9d014c78e71.svs,9fbce8b6-e571-4600-8498-a9d014c78e71,Non-Responder,0,,,,,,.svs,6,1,4
+EIPM77-073,8316c398-cf6c-49a2-85c4-359eabf7d65f.svs,8316c398-cf6c-49a2-85c4-359eabf7d65f,Non-Responder,0,,,,,,.svs,6,1,2
+EIPM77-073,6c5f0556-4a5f-424c-b3a4-0bb2521bc695.svs,6c5f0556-4a5f-424c-b3a4-0bb2521bc695,Non-Responder,0,,,,,,.svs,6,0,2
+EIPM77-074,0701669c-b347-446e-aeed-723c79c591f9.svs,0701669c-b347-446e-aeed-723c79c591f9,Non-Responder,0,,,,,,.svs,6,0,3
+EIPM77-074,7fb8f6f9-0730-4628-b270-dcf4f2554fcb.svs,7fb8f6f9-0730-4628-b270-dcf4f2554fcb,Non-Responder,0,,,,,,.svs,6,0,3
+EIPM77-074,3e723fec-e6cd-46d2-92cf-e94e48d706ae.svs,3e723fec-e6cd-46d2-92cf-e94e48d706ae,Non-Responder,0,,,,,,.svs,6,1,3
+EIPM77-075,fd9a236c-8f93-4046-82c3-59128553dd0f.svs,fd9a236c-8f93-4046-82c3-59128553dd0f,Non-Responder,0,,,,,,.svs,6,1,2
+EIPM77-075,300147d4-3290-4832-b81c-aa1a7ecd0879.svs,300147d4-3290-4832-b81c-aa1a7ecd0879,Non-Responder,0,,,,,,.svs,6,0,2
+EIPM77-076,ca373143-d90a-4fc0-8672-fed96d9dda9a.svs,ca373143-d90a-4fc0-8672-fed96d9dda9a,Non-Responder,0,,,,,,.svs,6,0,3
+EIPM77-076,f0f103fd-af6c-4435-a574-8d31acbdc665.svs,f0f103fd-af6c-4435-a574-8d31acbdc665,Non-Responder,0,,,,,,.svs,6,1,3
+EIPM77-076,41c2b87a-7a5f-4fcc-89c5-236708f38c53.svs,41c2b87a-7a5f-4fcc-89c5-236708f38c53,Non-Responder,0,,,,,,.svs,6,0,3
+EIPM77-077,fc1d54f8-871c-408d-b95d-a464d9dec5e5.svs,fc1d54f8-871c-408d-b95d-a464d9dec5e5,Non-Responder,0,,,,,,.svs,6,0,4
+EIPM77-077,c1a6c948-d630-4dec-bbc6-8c4df7b450dd.svs,c1a6c948-d630-4dec-bbc6-8c4df7b450dd,Non-Responder,0,,,,,,.svs,6,1,4
+EIPM77-077,5a053e56-0c51-48de-b3f7-83adfe660c49.svs,5a053e56-0c51-48de-b3f7-83adfe660c49,Non-Responder,0,,,,,,.svs,6,0,4
+EIPM77-077,c3798aae-7dd3-4527-8fc2-e492da2fb6bf.svs,c3798aae-7dd3-4527-8fc2-e492da2fb6bf,Non-Responder,0,,,,,,.svs,6,0,4
+EIPM77-078,31e91e55-c584-449d-a432-b9ae5966dc61.svs,31e91e55-c584-449d-a432-b9ae5966dc61,Non-Responder,0,,,,,,.svs,6,0,3
+EIPM77-078,3aff993d-ac6a-4980-bdec-bed83df755f7.svs,3aff993d-ac6a-4980-bdec-bed83df755f7,Non-Responder,0,,,,,,.svs,6,1,3
+EIPM77-078,842d54f2-c0ab-4da8-a169-ca7a1e97c11d.svs,842d54f2-c0ab-4da8-a169-ca7a1e97c11d,Non-Responder,0,,,,,,.svs,6,0,3
+EIPM77-079,d023dac3-dae0-4514-827d-b0b826d03b6b.svs,d023dac3-dae0-4514-827d-b0b826d03b6b,Non-Responder,0,,,,,,.svs,6,0,2
+EIPM77-079,1550ef38-760a-49a6-88e8-59a3309a7b4b.svs,1550ef38-760a-49a6-88e8-59a3309a7b4b,Non-Responder,0,,,,,,.svs,6,1,2
+EIPM77-080,1345f8d0-6c26-468e-8e4c-1b38ce36dfac.svs,1345f8d0-6c26-468e-8e4c-1b38ce36dfac,Non-Responder,0,,,,,,.svs,6,1,4
+EIPM77-080,57c1fb34-f985-441b-830a-5239d32a395e.svs,57c1fb34-f985-441b-830a-5239d32a395e,Non-Responder,0,,,,,,.svs,6,0,4
+EIPM77-080,c17d88a4-f6e5-4652-991a-09bd943b777e.svs,c17d88a4-f6e5-4652-991a-09bd943b777e,Non-Responder,0,,,,,,.svs,6,0,4
+EIPM77-080,1643bbda-12d5-4024-9ea8-3863ac73166b.svs,1643bbda-12d5-4024-9ea8-3863ac73166b,Non-Responder,0,,,,,,.svs,6,0,4
+EIPM77-081,47b19601-2bce-4e9d-800e-861e3858fd12.svs,47b19601-2bce-4e9d-800e-861e3858fd12,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-082,831673a1-038b-4dba-b17c-8541babf177b.svs,831673a1-038b-4dba-b17c-8541babf177b,Non-Responder,0,,,,,,.svs,6,1,2
+EIPM77-082,0ed97d76-24ce-4fe5-8008-a30d4f9aa211.svs,0ed97d76-24ce-4fe5-8008-a30d4f9aa211,Non-Responder,0,,,,,,.svs,6,0,2
+EIPM77-083,3624c89f-0093-4aa1-ad4c-dd8b7b27f291.svs,3624c89f-0093-4aa1-ad4c-dd8b7b27f291,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-084,1bc78ea7-99a6-4841-8056-1ab3c317b56a.svs,1bc78ea7-99a6-4841-8056-1ab3c317b56a,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-085,7662b479-0375-444f-9640-cfce344df784.svs,7662b479-0375-444f-9640-cfce344df784,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-086,d056171f-8f02-43f7-8dea-54d84df010de.svs,d056171f-8f02-43f7-8dea-54d84df010de,Non-Responder,0,,,,,,.svs,6,0,2
+EIPM77-086,d68efcd5-06f7-4b9d-b786-787627db8098.svs,d68efcd5-06f7-4b9d-b786-787627db8098,Non-Responder,0,,,,,,.svs,6,1,2
+EIPM77-087,89c74d2f-44bb-4cd3-8e84-c1f885e635fd.svs,89c74d2f-44bb-4cd3-8e84-c1f885e635fd,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-088,85c6f224-cac0-4307-ac0e-75f70548ae50.svs,85c6f224-cac0-4307-ac0e-75f70548ae50,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-089,9bc74fc7-c2bd-45d0-b055-d9e405edd252.svs,9bc74fc7-c2bd-45d0-b055-d9e405edd252,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-090,57404ebe-8b9f-4c57-89a6-cc8a7e44d4cf.svs,57404ebe-8b9f-4c57-89a6-cc8a7e44d4cf,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-091,4ba51d0c-bf27-4440-bcae-146c1db8b160.svs,4ba51d0c-bf27-4440-bcae-146c1db8b160,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-092,8a246c72-88e4-4492-8aac-05eca13400d2.svs,8a246c72-88e4-4492-8aac-05eca13400d2,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-093,9802a74c-91fd-46d8-9342-3cb53109763d.svs,9802a74c-91fd-46d8-9342-3cb53109763d,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-094,863b56c4-655b-4b4e-baa3-877bedb33ecb.svs,863b56c4-655b-4b4e-baa3-877bedb33ecb,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-095,61093912-b928-4fbd-b2bb-8a71b0acc0c0.svs,61093912-b928-4fbd-b2bb-8a71b0acc0c0,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-096,fac0c5de-5541-493c-9b23-b20c44ea90f7.svs,fac0c5de-5541-493c-9b23-b20c44ea90f7,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-097,bb2058a1-4fe2-43e8-9110-3c3b7e35da2a.svs,bb2058a1-4fe2-43e8-9110-3c3b7e35da2a,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-098,e7e6c1be-22fd-475f-9e64-ba12aff91714.svs,e7e6c1be-22fd-475f-9e64-ba12aff91714,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-099,beb4048f-a56d-4605-a81b-b9f00f289cef.svs,beb4048f-a56d-4605-a81b-b9f00f289cef,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-100,cc17b6e7-0d0e-432f-84f1-e8083b0df0a8.svs,cc17b6e7-0d0e-432f-84f1-e8083b0df0a8,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-101,249b551d-a3a2-4e56-a33c-8befa82c4727.svs,249b551d-a3a2-4e56-a33c-8befa82c4727,Non-Responder,0,,,,,,.svs,6,0,7
+EIPM77-101,1421f138-4e5a-4727-8903-0261e68eeb1a.svs,1421f138-4e5a-4727-8903-0261e68eeb1a,Non-Responder,0,,,,,,.svs,6,0,7
+EIPM77-101,96d4cdca-f4bd-4bb1-88d4-b043ec5cd70d.svs,96d4cdca-f4bd-4bb1-88d4-b043ec5cd70d,Non-Responder,0,,,,,,.svs,6,0,7
+EIPM77-101,cb987c92-390f-4bfa-aee6-a445205095fc.svs,cb987c92-390f-4bfa-aee6-a445205095fc,Non-Responder,0,,,,,,.svs,6,1,7
+EIPM77-101,0e09df6a-aed9-45c5-9672-615ab5843290.svs,0e09df6a-aed9-45c5-9672-615ab5843290,Non-Responder,0,,,,,,.svs,6,0,7
+EIPM77-101,c261c7c4-2fb1-4fb0-884a-495a06572e69.svs,c261c7c4-2fb1-4fb0-884a-495a06572e69,Non-Responder,0,,,,,,.svs,6,0,7
+EIPM77-101,f02015a5-d230-4818-b8f1-91a1258576e9.svs,f02015a5-d230-4818-b8f1-91a1258576e9,Non-Responder,0,,,,,,.svs,6,0,7
+EIPM77-102,399ce0e5-bad9-40d4-ab8d-8ca036af37c3.svs,399ce0e5-bad9-40d4-ab8d-8ca036af37c3,Non-Responder,0,,,,,,.svs,6,1,2
+EIPM77-102,f12445b4-e96c-4128-95a5-baceb723d835.svs,f12445b4-e96c-4128-95a5-baceb723d835,Non-Responder,0,,,,,,.svs,6,0,2
+EIPM77-103,9feeb9d4-b1cf-4e76-84fe-bc5786c7afe2.svs,9feeb9d4-b1cf-4e76-84fe-bc5786c7afe2,Non-Responder,0,,,,,,.svs,6,1,1
+EIPM77-104,4e4e926e-874f-4450-aae2-adc76ebd171d.svs,4e4e926e-874f-4450-aae2-adc76ebd171d,Non-Responder,0,,,,,,.svs,6,0,2
+EIPM77-104,1616da0f-cc09-438b-872b-7b7aee797e55.svs,1616da0f-cc09-438b-872b-7b7aee797e55,Non-Responder,0,,,,,,.svs,6,1,2

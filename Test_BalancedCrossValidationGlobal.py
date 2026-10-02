@@ -2,7 +2,7 @@
 # Nathan Lay
 # AI Resource at National Cancer Institute
 # National Institutes of Health
-# August 2023
+# September 2026
 # 
 # THIS SOFTWARE IS PROVIDED BY THE AUTHOR(S) ``AS IS'' AND ANY EXPRESS OR
 # IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
@@ -17,7 +17,7 @@
 # 
 
 import numpy as np
-from RandomSplit import BalancedCrossValidation
+from RandomSplit import BalancedCrossValidationGlobal
 
 def PureRandomCrossValidation(W, F, tries=10, aggregator=np.max, random_state = None, max_batch_size=1000):
     assert W.ndim == 2
@@ -98,7 +98,7 @@ def RunBenchmark():
     K = 11
     N = 200
     F = 5
-    numRuns=100
+    numRuns=10
     tries=1000
     aggregator=np.max
     
@@ -127,7 +127,7 @@ def RunBenchmark():
         
         #expected = np.round(((F-1.0)/F)*W.sum(axis=1)).astype(int)
         
-        folds, res = BalancedCrossValidation(W, F, tries=tries, aggregator=aggregator, random_state=seeds[i])
+        folds, res = BalancedCrossValidationGlobal(W, F, random_state=seeds[i], device="cpu")
 
         #for f, fold in enumerate(folds):
         #    svd = np.inner(W, fold)
