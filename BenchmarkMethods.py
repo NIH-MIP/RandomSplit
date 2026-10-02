@@ -32,7 +32,7 @@ from contextlib import contextmanager
 # Methods to benchmark
 from RandomSplit import BalancedCrossValidation, BalancedCrossValidationGlobal, BalancedCrossValidationIncremental, BalancedCrossValidationIncrementalGlobal
 from iterstrat.ml_stratifiers import MultilabelStratifiedKFold
-import PaperMetrics_experiment as pm
+import PaperMetrics as pm
 import multiprocessing as mp
 
 class RunBalancedCrossValidation:
